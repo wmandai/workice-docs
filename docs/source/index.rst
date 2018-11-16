@@ -1,4 +1,4 @@
-Workice CRM User Guide
+Invoice Ninja User Guide
 ========================
 
 Want to find out everything there is to know about how to use your Invoice Ninja account? Look no further than our User Guide, where you’ll learn all about creating and sending invoices, receiving payments, creating tasks, converting quotes to invoices, recurring invoices, entering credits and much, much more.
@@ -21,7 +21,6 @@ Want to find out everything there is to know about how to use your Invoice Ninja
    expenses
    vendors
    reports
-   tickets
    settings
 
 .. _advanced-settings:
