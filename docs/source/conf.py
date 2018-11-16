@@ -85,7 +85,10 @@ html_theme = 'sphinx_rtd_theme'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'analytics_id': 'UA-82273101-2',
+    'display_version': True,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -190,5 +193,6 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
 html_show_sourcelink = False
+html_show_sphinx = False
 def setup(app):
     app.add_stylesheet('css/custom.css')
