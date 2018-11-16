@@ -8,6 +8,6 @@
 .wy-nav-top {
     background: #3869d4;
 }
-.rst-versions {
+.rst-versions .rst-current-version .fa-book, .rst-versions .rst-current-version .icon-book {
     display: none;
 }
