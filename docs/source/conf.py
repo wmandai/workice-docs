@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Workice Docs'
+project = u'Workice CRM'
 copyright = u'2018, William Mandai'
 author = u'William Mandai'
 
@@ -135,7 +135,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WorkiceDocs.tex', u'Workice Docs Documentation',
+    (master_doc, 'WorkiceDocs.tex', u'Workice CRM Documentation',
      u'William Mandai', 'manual'),
 ]
 
@@ -145,7 +145,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'workicedocs', u'Workice Docs Documentation',
+    (master_doc, 'workicedocs', u'Workice CRM Documentation',
      [author], 1)
 ]
 
@@ -156,8 +156,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WorkiceDocs', u'Workice Docs Documentation',
-     author, 'WorkiceDocs', 'One line description of project.',
+    (master_doc, 'WorkiceCRM', u'Workice CRM Documentation',
+     author, 'WorkiceCRM', 'One CRM to manage your entire invoicing, expenses, deals and projects',
      'Miscellaneous'),
 ]
 
