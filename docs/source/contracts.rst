@@ -1,4 +1,4 @@
-Proposals
+Contracts
 =========
 
 When submitting a regular quote is not enough, the advanced Proposals feature comes to the rescue.

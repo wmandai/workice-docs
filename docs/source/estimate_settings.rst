@@ -1,5 +1,5 @@
-Developer Guide
-===============
+Estimate Settings
+=================
 
 This guide will provide an overview of Invoice Ninja. If anything’s unclear please send us an email, we’re always working to improve it.
 

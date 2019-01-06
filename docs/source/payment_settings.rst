@@ -1,5 +1,5 @@
-Custom Modules
-==============
+Payment Settings
+================
 
 Invoice Ninja support customs modules using https://github.com/nWidart/laravel-modules
 

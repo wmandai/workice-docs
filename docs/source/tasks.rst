@@ -101,6 +101,7 @@ Manual
 The other way you can create a task is by manual entry of the session details. When you check Manual, two separate fields - Start Time and End Time - will automatically open below. Here, you can record the time spent on a task session, no matter when you completed it. Whether last week, yesterday or just now, simply enter the relevant date and time.
 
 .. TIP:: The Set to Now link, situated at the right side of the time fields, gives you the fast option of selecting today’s date and the time right now. Then you can easily edit and make minor adjustments to record the correct times.
+
 With Manual entry, you can enter multiple sessions for the same task. When you finish entering a start and end time in one row, a new row will automatically open, giving you the option to enter another session.
 
 If you want to delete a particular session, hover your mouse over the time duration of the session you wish to delete. A small red cancel icon will appear. Click on the icon to delete the entry.

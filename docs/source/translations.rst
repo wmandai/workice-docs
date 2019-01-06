@@ -1,4 +1,4 @@
-Mobile Applications
+Translations
 ===================
 
 The Invoice Ninja iPhone and Android applications allows a user to connect to their self-hosted Invoice Ninja web application.

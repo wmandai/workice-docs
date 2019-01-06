@@ -1,4 +1,4 @@
-Invoice Design
+Lead Settings
 ==============
 
 Whether you're a design novice or programming pro, Invoice Ninja gives you the power to customize your invoice design, to give your invoices the exact look you want. The design tool is the perfect way to match your invoices to your company's graphical look and feel, including colors, fonts, logos, margin sizes, column names, headers, footers and much more.

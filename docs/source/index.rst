@@ -1,7 +1,20 @@
-Workice CRM User Guide
-========================
+User Guide
+==========
 
-Want to find out everything there is to know about how to use your Workice CRM app? Look no further than our User Guide, where you’ll learn all about creating and sending invoices, receiving payments, creating tasks, converting quotes to invoices, recurring invoices, entering credits and much, much more.
+This documentation will help you learn all about creating and creating projects, sending invoices, receiving payments, creating tasks, converting estimates to invoices, recurring invoices, entering credits, support system and much more.
+
+.. _installation:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Installation
+
+   install
+   configure
+   update
+   changelogs
+   api
+   client_portal
 
 .. _basic-features:
 
@@ -10,16 +23,22 @@ Want to find out everything there is to know about how to use your Workice CRM a
    :caption: Basic Features
 
    introduction
+   deals
+   leads
    clients
    invoices
    payments
    recurring_invoices
    credits
-   quotes
-   proposals
+   projects
+   subscriptions
+   knowledgebase
+   estimates
+   contracts
    tasks
    expenses
-   vendors
+   calendar
+   tickets
    reports
    settings
 
@@ -29,25 +48,13 @@ Want to find out everything there is to know about how to use your Workice CRM a
    :maxdepth: 1
    :caption: Advanced Settings
 
+   system_settings
+   lead_settings
+   deal_settings
    invoice_settings
-   invoice_design
-   client_portal
+   payment_settings
+   estimate_settings
    email_settings
-   templates_and_reminders
-   data_visualizations
-   api_tokens
-   user_management
-
-.. _self_host:
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Self Host
-
-   install
-   configure
-   update
-   mobile_apps
-   api
-   developer_guide
-   custom_modules
+   reminders
+   email_templates
+   translations

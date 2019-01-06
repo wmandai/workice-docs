@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Workice CRM'
-copyright = u'2018, William Mandai'
+copyright = u'2019, William Mandai'
 author = u'William Mandai'
 
 # The short X.Y version
@@ -193,5 +193,6 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 todo_include_todos = True
 html_show_sourcelink = False
 html_show_sphinx = False
+html_favicon = 'images/favicon-32x32.png'
 def setup(app):
     app.add_stylesheet('css/custom.css')

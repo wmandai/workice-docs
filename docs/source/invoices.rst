@@ -6,7 +6,7 @@ Well, it’s time to bill, and the Invoices function of Invoice Ninja lets you g
 With a bustling freelance business, you’re going to be sending out a lot of invoices. Creating an invoice is simple with the New Invoice page. Once you’ve entered the client, job and rates information, you’ll see a live PDF preview of your invoice, and you’ll have a range of actions at your fingertips – from saving a draft, to sending the invoice to the client via email, to printing a PDF hard copy.
 
 Invoices List page
-"""""""""""""
+""""""""""""""""""
 
 With numerous invoices to keep track of, the Invoices list page is your go-to guide for the entire history and status of all your invoices – including those that have been paid, those sent but unpaid, and those still in the drafting and editing stage.
 
@@ -100,6 +100,7 @@ The top section of the invoice contains a range of important information specifi
 - **Invoice #**: The invoice number is assigned automatically when you create a new invoice, in order of chronology. TIP: You can manually override the default invoice number by entering a different number in the Invoice # field.
 - **PO #**: The purchase order number. Enter the purchase order number for easy reference.
 - **Discount**: If you wish to apply a discount to the invoice, you can choose one of two methods: a monetary amount, or a percentage of the total amount due. To choose a method, click on the arrow at the right side of the box next to the Discount field. Select Percent or Amount from the drop-down list. Then enter the relevant figure. For example, to apply a 20% discount, enter the number 20, and select “Percent” from the drop-down list. To apply a $50 discount, enter the number 50, and select “Amount” from the drop-down list.
+
 .. TIP: The currency of the invoice will be set according to the default currency specified for this client when you created the client.
 
 Now that we’ve completed the general invoice information, it’s time to finish creating your invoice by specifying the job/s you’re billing for, the amounts due for each job/line item, taxes, discounts and final balance due. Let's explore the various columns of the invoice, from left to right along the header bar:

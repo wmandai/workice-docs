@@ -1,4 +1,4 @@
-User Management
+Deal Settings
 ===============
 
 Need help managing your invoicing? As an Invoice Ninja account owner, you can add as many users as you like to your account. Once added, users receive the status of 'Admin'. Your Admins have access to most areas and functions of your Invoice Ninja account.

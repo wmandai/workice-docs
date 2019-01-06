@@ -89,10 +89,10 @@ The Online Payments page is where you go to set up and manage your payment gatew
 If you are using WePay, Stripe or Braintree, you'll need to complete the Payment Settings. (TIP: If you're not using any of these three gateways, you can skip the Payment Settings box.)
 
 - **Token Billing**: Select your preferred option from the drop down list.
- - **Disabled**: Never auto bill
- - **Opt In (checkbox is shown but not selected) In the client portal**: The client has the option to check the auto billing box to securely store their credit card/bank account on file.
- - **Opt Out (checkbox is shown and selected) In the client portal**: The auto bill option is selected automatically. The client can still choose to uncheck the box and disable storing their credit card/bank account.
- - **Always**: Always auto bill
+- **Disabled**: Never auto bill  
+- **Opt In (checkbox is shown but not selected) In the client portal**: The client has the option to check the auto billing box to securely store their credit card/bank account on file.
+- **Opt Out (checkbox is shown and selected) In the client portal**: The auto bill option is selected automatically. The client can still choose to uncheck the box and disable storing their credit card/bank account.
+- **Always**: Always auto bill
 
 - **Auto Bill**: Choose the date you prefer to auto bill for the invoice: on the send date OR on the due date. Check the relevant box to make your selection.
 
@@ -126,8 +126,8 @@ Let's take a look at the default Payment Gateways/ Create screen for the WePay s
 - **Company Name**: Enter the company name. This will appear on the client's credit card bill.
 - **Country**: Select United States or Canada
 - **Billing address**: Check the preferred option
- - **Require client to provide their billing address**: Show the client's address on the payment page
- - **Update client's address with the provided details**: The client's address will be updated on the payment page with the details they provide
+- **Require client to provide their billing address**: Show the client's address on the payment page  
+- **Update client's address with the provided details**: The client's address will be updated on the payment page with the details they provide
 - **Accepted Credit Cards**: Check the box for the credit cards you accept
 - **ACH**: To allow bank transfer payments, check the Enable ACH box
 - **I agree**: Check the box to accept WePay terms and conditions. TIP: To continue using WePay, you must agree to the terms and conditions.
