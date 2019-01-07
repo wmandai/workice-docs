@@ -14,7 +14,6 @@ This documentation will help you learn all about creating and creating projects,
    update
    changelogs
    api
-   client_portal
 
 .. _basic-features:
 

@@ -22,7 +22,34 @@ If the bearer token is invalid or expired you will receive a response with the s
 
 If the access_token is valid but you don't have enough scope to perform this request you will receive a response with the status code set to **HTTP 403 Forbidden**.
 
+HTTP-Codes
+"""""""""""
+Actions and errors yield different HTTP response codes.  
+Please have a look at the expected response codes in the following list.
 
+ - ``200`` Request OK
+ - ``201`` New resource created
+ - ``304`` The resource has not been changed
+ - ``400`` The request parameters are invalid
+ - ``401`` The bearer token or the provided api key is invalid
+ - ``403`` You do not possess the required rights to access this resource.
+ - ``404`` The resource could not be found / is unknown.
+ - ``415`` The data could not be processed or the accept header is invalid.
+ - ``422`` Could not save the entity
+ - ``500`` An unexpected condition was encountered
+ - ``503`` The server is not available (maintenance work).
+
+HTTP-Headers
+""""""""""""
+.. ATTENTION:: You must provide the following headers in each request:
+
++---------------+---------------------+-----------------------------------------------------+
+| Header        | Valid Values        | Description                                         |
++===============+=====================+=====================================================+
+| Accept        | application/json    | API Format                                          |
++---------------+---------------------+-----------------------------------------------------+
+| Authorization | Bearer $AccessToken | Replace with your Access Token                      |
++---------------+---------------------+-----------------------------------------------------+
 
 Invoices
 """"""""""""
