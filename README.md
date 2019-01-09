@@ -1,4 +1,6 @@
-# One CRM to manage your entire freelance business.
+# Workice CRM Documentation
+
+## One CRM to manage your entire freelance business.
 
 ![Workice](https://s3.eu-central-1.amazonaws.com/workice/images/workice-dash.png)
 
