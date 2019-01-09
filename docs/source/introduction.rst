@@ -26,7 +26,7 @@ The dashboard is designed to offer a simple yet powerful overview of your total 
 - **Outstanding**: The total amount of all unpaid invoices.
 - **Invoiced**: The total amount invoiced so far.
 - **This Month**: Total amount invoiced in the current month.
-- **Last Month**: Total amount of invoices created last month
+- **Last Month**: Total amount of invoices created last month.
 
 .. TIP:: If you are being paid in a range of currencies, the dashboard will display the totals in your Base Currency.
 
@@ -40,8 +40,8 @@ Sales dashboard provides a general overview of deals and leads.
 
 The dashboard provides the information below:
 
-- **Won Deals**: Total amount of won deals
-- **Lost Deals**: The total amount of lost deals
+- **Won Deals**: Total amount of won deals.
+- **Lost Deals**: The total amount of lost deals.
 - **This Month**: Total amount of deals this month.
 - **Forecasted**: Get an idea of the revenue projection for your company.
 
@@ -57,8 +57,8 @@ Expenses dashboard provides a general overview of your expenses.
 
 The dashboard provides the information below:
 
-- **Billed**: Total amount of billed expenses
-- **Unbillable**: Total amount of unbillable expenses
+- **Billed**: Total amount of billed expenses.
+- **Unbillable**: Total amount of unbillable expenses.
 - **This Month**: Total amount of expenses this month.
 - **Last Month**: Total amount of expenses last month.
 
@@ -74,8 +74,8 @@ Payment dashboard provides a general overview of your payments status of your fr
 
 The dashboard provides the information below:
 
-- **Receipts**: Total amount received so far
-- **Credits**: Total amount of creditnotes issued
+- **Receipts**: Total amount received so far.
+- **Credits**: Total amount of creditnotes issued.
 - **This Month**: Total amount of payments received this month.
 - **Last Month**: Total amount of payments received last month.
 
@@ -91,8 +91,8 @@ Project dashboard provides a general overview of your project status of your fre
 
 The dashboard provides the information below:
 
-- **Active**: Total number of active projects
-- **Done**: Total number of completed projects
+- **Active**: Total number of active projects.
+- **Done**: Total number of completed projects.
 - **Pending Tasks**: Total number of pending tasks.
 - **Done Tasks**: Total number of completed tasks.
 
