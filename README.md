@@ -1,3 +1,3 @@
-# workice-docs
+# Workice CRM Documentation
 
 Workice CRM Docs
