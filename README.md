@@ -1,10 +1,12 @@
-# Workice CRM Documentation
+# 🎉🎉Workice CRM Documentation
 
-## One CRM to manage your entire freelance business.
+## ⭐️ One CRM to manage your entire freelance business.
+
+Workice CRM Software is a web based, easy, powerful yet affordable CRM with sales and marketing tools, project management, expense tracking, invoicing and estimates tools for small businesses/freelancers.
 
 ![Workice](https://s3.eu-central-1.amazonaws.com/workice/images/workice-dash.png)
 
-Workice CRM Software is a web based, easy, powerful yet affordable CRM with sales and marketing tools, project management, expense tracking, invoicing and estimates tools for small businesses/freelancers.
+
 
 ## Why Workice CRM?
 * Project Management - Track and manage your projects from start to finish with one creative tool.
