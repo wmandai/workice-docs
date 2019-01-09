@@ -1,3 +1,3 @@
 # Workice CRM Documentation
 
-Workice CRM Docs
+One CRM to manage your entire freelance business.
