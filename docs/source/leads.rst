@@ -11,7 +11,7 @@ Leads could be obtained through a purchased contact list, a form on your website
 - Email integrations. Create new leads whenever you receive a new email.
 - Use zappier to scan business cards using `<https://www.fullcontact.com/>`_ and send POST data to your Workice CRM.
 - Add a Web to Lead form to your website so visitors can submit their own information.
-- If you have technical resources, you can also add leads through `Workice CRM API </api.html>`_
+- If you have technical resources, you can also add leads through Workice CRM API.
 
 .. TIP:: You can choose how to view leads ie. **Kanban view** or **Table View** by selecting the Table icon on the leads page.
 

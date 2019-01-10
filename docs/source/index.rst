@@ -24,7 +24,7 @@ This documentation will help you learn all about creating and creating projects,
    introduction
    deals
    leads
-   clients
+   accounts
    invoices
    payments
    recurring_invoices
