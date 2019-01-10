@@ -63,7 +63,7 @@ Once you have created an account, you can view the details of the account in the
 .. TIP:: If you entered the client's street address, a Google map appears below the information box displaying the client's location.
 
 Invoices Section
-*****************
+^^^^^^^^^^^^^^^^
 
 The Invoices section shows a list of all the client's invoices and accompanying information.
 
@@ -77,7 +77,7 @@ The Invoices section shows a list of all the client's invoices and accompanying 
 .. TIP:: You can also create a new invoice for this client via the Create button that appears at the top left of the Invoices section.
 
 Payments Section
-*****************
+^^^^^^^^^^^^^^^^
 
 The Payments section shows a list of all the client's payments and accompanying information.
 
@@ -88,7 +88,7 @@ The Payments section shows a list of all the client's payments and accompanying 
 - **Currency**: Currency used in the payment
 
 Projects Section
-*****************
+^^^^^^^^^^^^^^^^
 
 The projects section shows a list of all the client's projects and accompanying information.
 
@@ -101,7 +101,7 @@ The projects section shows a list of all the client's projects and accompanying 
 - **Status**: The status of the project (Active, Done, On Hold)
 
 Estimates Section
-*****************
+^^^^^^^^^^^^^^^^^^
 
 The estimates section shows a list of all the client's estimates and accompanying information.
 
@@ -115,7 +115,7 @@ The estimates section shows a list of all the client's estimates and accompanyin
 .. TIP:: You can also create a new estimate for this client via the Create button that appears at the top left of the estimates section.
 
 Expenses Section
-*****************
+^^^^^^^^^^^^^^^^^
 
 The expenses section shows a list of all the client's expenses and accompanying information.
 
@@ -127,17 +127,17 @@ The expenses section shows a list of all the client's expenses and accompanying 
 - **Currency**: Currency used in the expense
 
 Files Section
-*****************
+^^^^^^^^^^^^^^^^
 
 The Files section shows a list of all the client's associated files.
 
 Subscriptions Section
-**********************
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 The subscriptions section shows a list of all the client's subscriptions.
 
 Updating Client
-***************
+^^^^^^^^^^^^^^^^
 
 Click on the Update button, at the top right corner of the page. You will now be taken to the Account/Update page, where you can edit any of the fields.
 
