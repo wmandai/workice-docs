@@ -8,7 +8,7 @@ Contacts
 In Workice, a Contact is an individual who is typically associated with an Account (organisation) or Opportunity (qualified prospect). For example if Apple is the Account, then John Smith, Sales Manager of Apple is the Contact. This module holds all information relating to these individuals and also provides a vantage point for any history relating to a Contact record, for example if they sent you an Email.
 
 List Accounts
-""""""""""""
+""""""""""""""
 
 The Accounts page is a list page that presents a summary of all your clients in a user-friendly table. Think of Accounts page as the "central station" of your client activity. Most of your day-to-day invoicing actions can be taken from the various links and buttons that appear on the Accounts page. And you can use the Accounts page as your starting point to explore more in-depth client information, view client projects, view client estimates, and more. Now, we’ll take a closer look at the setup of the Clients page, and the range of actions available to you on the Accounts page.
 
@@ -26,7 +26,7 @@ The Clients page presents a list summary of all your current clients in a table 
 - **Expenses:** The client’s unbilled expenses
 
 Create Account
-"""""""""""""
+""""""""""""""
 
 So, you’ve taken on a new client? Congratulations!
 
@@ -141,8 +141,8 @@ Updating Client
 
 Click on the Update button, at the top right corner of the page. You will now be taken to the Account/Update page, where you can edit any of the fields.
 
-Archiving or Deleting the Client
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Deleting the Client
+^^^^^^^^^^^^^^^^^^^^
 
 You can also delete the specific client directly from their Client Overview page.
 Click on the trash icon at the right hand side of the Update Client button.
