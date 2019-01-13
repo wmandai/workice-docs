@@ -27,8 +27,7 @@ This documentation will help you learn all about creating and creating projects,
    accounts
    invoices
    payments
-   recurring_invoices
-   credits
+   creditnotes
    projects
    subscriptions
    knowledgebase

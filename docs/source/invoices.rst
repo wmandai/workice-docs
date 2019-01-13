@@ -18,7 +18,7 @@ The life of an invoice in Workice system is made up of a number of stages:
 - **Overdue**: The invoice has passed its due date.
 
 Invoices list
-^^^^^^^^^^^^^
+"""""""""""""
 On the invoices list page you'll see a table with the columns below;
 
 - **Invoice #**: The number of the invoice
@@ -30,7 +30,7 @@ On the invoices list page you'll see a table with the columns below;
 
 
 Create Invoice
-""""""""""""""
+"""""""""""""""
 
 To create a new invoice, go to the Invoices tab on the main sidebar, and click on the + Create button. This will open the Invoices / Create page offering a series of text and numerical inputs.
 
@@ -58,7 +58,7 @@ The form contains:
 
 - **Notes**: Want to enter information to appear as a footer on the invoice? Enter it here. The text will appear at the bottom of the invoice.
 
-Once you've completed creating your invoice, click on Save Button and you'll be redirected to the invoice page where you can enter your products/services to bill your clients.
+Once you've completed creating your invoice, click on **Save** Button and you'll be redirected to the invoice page where you can enter your products/services to bill your clients.
 
 - **Item/Product**: This is the name of the item you are billing for. You can either enter the details manually, or start typing and pick already invoiced items.
 - **Description**: Add more information about the item. This will help the customer better understand the job completed, and is also useful for your own reference.
@@ -76,9 +76,12 @@ Beneath and to the right of the line item section, you'll find the Totals sectio
 
 - **Subtotal**: This is the amount due before other figures are taken into calculation, such as Tax, Discounts, Credits, etc.
 - **Tax 1**: Tax 1 rate for the invoice.
-- **Tax 1**: Tax 2 rate for the invoice.
+- **Tax 2**: Tax 2 rate for the invoice.
 - **Payment Made**: The amount paid to date, including partial payments and credits.
 - **Balance**: The final balance owed to you, after taxes, partial payments and credits have been deducted from the charged amount.
+
+Invoice Page
+""""""""""""""""
 - **Show to client button**: Use this button to hide/show invoice to client.
 - **Pay Invoice button**: Click this button to make payment to an Invoice.
 - **Email button**: Email the invoice directly via Wrockie system to the email address specified for the client.
@@ -93,12 +96,10 @@ Beneath and to the right of the line item section, you'll find the Totals sectio
 - **PDF button**: Download a PDF version of the invoice.
 - **As Client button**: You can impersonate a client and view the invoice as client.
 
-
-
 .. TIP: You may attach invoice documents using the folder icon at the top right side of the invoice top navigation..
 
 Email Invoice Preview
-^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 
 When you are ready to send an invoice to the client, click the Email Invoice button. Before the invoice email is sent, a pop-up box will open, displaying a preview of the email. Here, you can add additonal comment to the email.
 
@@ -107,37 +108,39 @@ Customizing the Invoice Email Template
 
 To customize the email template, go to **Settings** - **Translations** and click on **Emails button** on the top navigation and select the locale you want to modify.
 
-.. TIP:: You can customize any type of email template, including invoice emails, First Reminder, Second Reminder and Third Reminder emails. The english version variables are named in **module**, **action** and **message** format. Example; if you need to edit the message that will be sent when you send an invoice, look for a variable named ``invoices.sending.body``. To edit sent message subject, modify ``invoices.sending.subject`` value.
+.. TIP:: You can customize any type of email template, including invoice emails, First Reminder, Second Reminder and Third Reminder emails. The english version variables are named in **module**, **action** and **message** format (dot notation). Example; if you need to edit the message that will be sent when you send an invoice, look for a variable named ``invoices.sending.body``. To edit sent message subject, modify ``invoices.sending.subject`` value.
 
 Instant Notification
-^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""
 Know when an invoice is viewed, becomes due, or gets paid, so you can take the right actions to manage your cash flow. Set up invoice reminders to automatically email your customers when payment is due.
 
 Reuse items as much as you want
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""""""
 Recycling is a good thing, so why waste time and effort writing in the same items and prices over and over again? Once you add your items to an invoice you'll only need to start typing in your invoices to see them pop up.
 
 Auto Reminders
-^^^^^^^^^^^^^^^
+""""""""""""""""""
 Save yourself the time and hassle and automate your client communications! An invoice reminder is an automatic email message to remind your customer that an invoice is coming due or that it is overdue. This is a great way to stay on top of reminding your customers that you should be getting paid soon. To enabled Invoice Reminders, modify your **.env** file and change the value of ``AUTO_REMIND_INVOICES`` to false to disable it. Default is ``true``.
 
 . TIP:: Modify the number of days to send each invoice reminder in **Settings** - **Invoice Settings** section. You may also set late fee to apply on third reminder.
 
 Recurring Invoice
-^^^^^^^^^^^^^^^^^
-To make a invoice recur, edit the invoice and select the **Recur Every** dropdown. You can set it to recur every ``week, month, quarter, six months and yearly``. Select the start date and a date when the invoice should stop recurring (End Dates).
+""""""""""""""""""
+As a busy freelancer, you work for a variety of clients. Some jobs are one-off, but others are ongoing, whether on a weekly, monthly or other basis. Workice CRM recurring invoice feature automatically creates invoices for ongoing jobs, and sends the current invoice to the client on a regular, pre-defined basis. For each recurring job, you only need to set up the procedure once. 
 
-. TIP:: To stop a recurring invoice, edit the invoice and change **Recur Every** field to **None**.
+To make a invoice recur, edit the invoice and select the **Recur Every** dropdown. You can set it to recur every ``week, month, quarter, six months and yearly``. Select the start date and a date when the invoice should stop recurring (End Date).
 
-. TIP:: Reminders are sent based on the due date of the invoice.
+.. TIP:: To stop a recurring invoice, edit the invoice and change **Recur Every** field to **None**.
 
-. TIP:: To disable/enable sending invoices immediately they recur, go to **Settings** - **Invoice Settings** and disable/enable **Email on Recur** checkbox..
+.. TIP:: Reminders are sent based on the due date of the invoice.
+
+.. TIP:: To disable/enable sending invoices immediately they recur, go to **Settings** - **Invoice Settings** and disable/enable **Email on Recur** checkbox..
 
 When the invoices from this invoice will be generated you will have an overview which invoices are generated from this invoice at the Child Invoices link on the invoice page.
 
 
 Bulk Actions
-^^^^^^^^^^^^
+""""""""""""""""
 
 If you need to perform an action for a number of invoices, you can do it in one click with the bulk action feature. To use the bulk action feature, mark the relevant invoices in their checkbox at the far left of the invoices list. Once you've marked the invoices, select an action to perform on them in the buttons below the invoice list page.
 
@@ -145,7 +148,3 @@ If you need to perform an action for a number of invoices, you can do it in one 
 - **Mark as Paid**: Mark selected invoices as paid.
 - **Archive**: Archive selected invoices.
 - **Delete**: Delete selected invoices.
-
-
-
-
