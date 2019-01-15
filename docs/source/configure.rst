@@ -172,6 +172,11 @@ Open your .env file in Workice CRM and modify the values below;
 
 	MOLLIE_KEY={MOLLIE_API_KEY}
 
+
+Google Calendar Setup
+"""""""""""""""""""""""
+To display events from your Google Calendar, Go to **Settings** -> **System Settings** and enter your Google Calendar API key and your Google Calendar ID. Once the settings are configured, your events will display on Workice calendar.
+
 Using a (Reverse) Proxy
 """"""""""""""""""""""""
 

@@ -4,7 +4,7 @@ Expenses
 Track all of your lunch meetings or training materials, and other miscellaneous expenses in the Expenses section, and instantly bill clients.
 Expenses allow you to capture the billable and non-billable costs that you incur as part of your project work. These non-labor expenses are usually itemized costs for things like materials, travel expenses, or fixed-fee services. Typically, billable expenses are passed on to a client or customer, whereas non-billable expenses are internal costs paid for by your employer.
 
-You can create Expenses that you incur as part of your business operations (for example, Internet Expenses), or Recurring Expenses for those charges you incur on a frequent basis. 
+.. TIP:: You can create Expenses that you incur as part of your business operations (for example, Internet Expenses), or Recurring Expenses for those charges you incur on a frequent basis. 
 
 List Expenses
 """""""""""""
@@ -27,7 +27,7 @@ The Expenses list page displays a list of all business expenses that you choose 
 Expense Categories
 """"""""""""""""""
 
-Workice makes it easy to keep track of your spending with Expenses with categories to organize them. 
+`Workice <https://workice.com>`__ makes it easy to keep track of your spending with Expenses with categories to organize them. 
 
 Workice also makes it easy for you to create your own custom categories if a specific one isn't available. 
 
@@ -37,8 +37,8 @@ Adding/Editing Categories
 Click on the **Settings** icon at the topbar of the expenses list page. A modal will popup with a list of all existing categories. Here you can add, edit and delete your expenses categories.
 
 How Taxes Work on Expenses
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-When creating an Expense with a tax on it, the system will automatically calculate taxes for you based on the total amount you paid.
+""""""""""""""""""""""""""""""""
+.. ATTENTION:: When creating an Expense with a tax on it, the system will automatically calculate taxes for you based on the total amount you paid.
 
 Here’s a sample tax situation:
 
@@ -83,6 +83,6 @@ Once you have chosen the interval, you can decide for the repeat to stop by a pa
 
 
 Invoice Expense
-^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""
 
 Are you billing a client directly for an expense? To bill an expense, first create an invoice for the client. Open the new invoice and just below the Client address, you'll see a red button **Expenses Available** click on the button to open the modal where you can select the expenses to include in the invoice.
