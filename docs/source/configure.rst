@@ -53,8 +53,127 @@ Backup Settings
 - ``BACKUPS_SLACK_WEBHOOK`` - Slack webhook to post backup notifications
 - ``BACKUPS_SLACK_CHANNEL`` - Slack channel to post backup notifications. Default blank
 
+Paypal Configuration
+---------------------
+To setup paypal IPN;
+ - Login to `Paypal <https://paypal.com>`__ account
+ - Set the IPN to https://{YOUR-DOMAIN}/webhook/paypal/ipn replace {YOUR-DOMAIN} with your actual domain e.g https://app.workice.com/webhook/paypal/ipn
+
+ .. ATTENTION:: To enable PayPal Live, go to **Settings** -> **Payment Settings**
+
+Stripe Configuration
+---------------------
+To configure `Stripe <https://dashboard.stripe.com>`__, proceed as follows;
+
+ - Login to your stripe dashboard account
+ - Get your API Keys by clicking Developers section
+ - Obtain your stripe webhook keys by clicking on Webhooks under Developers section of your stripe dashboard.
+
+Open your .env file in Workice CRM and modify the values below;
+
+.. code-block:: shell
+
+	STRIPE_KEY={YOUR_STRIPE_PUBLISHABLE_KEY}
+	STRIPE_SECRET={YOUR_STRIPE_SECRET_KEY}
+	STRIPE_WEBHOOK_SECRET={YOUR_STRIPE_WEBHOOK_KEY}
+
+Stripe Webhook Configuration
+-----------------------------
+To handle `Stripe <https://dashboard.stripe.com>`__ webhooks, proceed as follows;
+ - Login to your stripe dashboard and click on Developers section.
+ - Click Webhooks -> Add Endpoint button
+ - Enter webhook URL as https://{YOUR-DOMAIN}/stripe/webhook replace {YOUR-DOMAIN} with your actual domain e.g https://app.workice.com/stripe/webhook
+
+By default, Workice CRM will automatically handle cancelling subscriptions that have too many failed charges (as defined by your Stripe settings), customer updates, customer deletions, subscription updates, and credit card changes; 
+
+Razorpay Configuration
+------------------------
+To configure `RazorPay <https://dashboard.razorpay.com>`__, proceed as follows;
+
+ - Login to your razorpay dashboard account
+ - Get your API Keys by clicking Settings -> API Keys section
+
+Open your .env file in Workice CRM and modify the values below;
+
+.. code-block:: shell
+
+	RAZORPAY_KEY={RAZORPAY_KEYID}
+	RAZORPAY_SECRET={RAZORPAY_SECRET}
+
+.. ATTENTION:: Create Razorpay webhook and enter webhook URL as https://{YOUR-DOMAIN}/webhook/razorpay/ipn replace {YOUR-DOMAIN} with your actual domain e.g https://app.workice.com/webhook/razorpay/ipn
+
+Braintree Configuration
+------------------------
+To configure `Braintree <https://www.braintreegateway.com>`__, proceed as follows;
+
+ - Login to your braintree dashboard account
+ - Get your API Keys by clicking Settings -> API section
+ - Just below the API keys you'll see your Merchant ID
+
+Open your .env file in Workice CRM and modify the values below;
+
+.. code-block:: shell
+
+	BRAINTREE_MERCHANT_ID={BRAINTREE_MERCHANT_ID}
+	BRAINTREE_PUBLIC_KEY={BRAINTREE_PUBLIC_KEY}
+	BRAINTREE_PRIVATE_KEY={BRAINTREE_PRIVATE_KEY}
+
+.. ATTENTION:: You will need to enter your Merchant Account in Settings -> Payment Settings -> Braintree Merchant Account
+
+.. ATTENTION:: To enable Braintree Live, go to **Settings** -> **Payment Settings**
+
+WePay Configuration
+---------------------
+To configure `WePay <https://www.wepay.com>`__ gateway, proceed as follows;
+
+ - Login to your WePay dashboard account
+ - Get your API Keys by clicking on your business account
+ - Copy and replace the values below with your WePay API Keys
+
+Open your .env file in Workice CRM and modify the values below;
+
+.. code-block:: shell
+
+	WEPAY_ACCOUNT_ID={WEPAY_ACCOUNT_ID}
+	WEPAY_CLIENT_ID={WEPAY_CLIENT_ID}
+	WEPAY_SECRET_ID={WEPAY_CLIENT_SECRET}
+	WEPAY_ACCESS_TOKEN={WEPAY_ACCESS_TOKEN}
+
+.. ATTENTION:: To enable WePay Live, go to **Settings** -> **Payment Settings**
+
+2Checkout Configuration
+-------------------------
+To configure `2checkout <https://2checkout.com>`__, proceed as follows;
+
+ - Login to your `2checkout <https://2checkout.com>`__ dashboard account
+ - Get your API Keys by clicking on API section
+ - Obtain your SELLER ID by clicking on your 2chekout avatar and copy **Account Number**.
+
+Open your .env file in Workice CRM and modify the values below;
+
+.. code-block:: shell
+
+	2CHECKOUT_PUBLISHABLE_KEY={2CHECKOUT_PUBLISHABLE_KEY}
+	2CHECKOUT_PRIVATE_KEY={2CHEKOUT_PRIVATE_KEY}
+	2CHECKOUT_SELLER_ID={2CHEKOUT_SELLER_ID}
+
+.. ATTENTION:: To enable 2Checkout Live, go to **Settings** -> **Payment Settings**
+
+Mollie Configuration
+-------------------------
+To configure mollie, proceed as follows;
+
+ - Login to your `Mollie <https://www.mollie.com/dashboard>`__ dashboard account
+ - Get your API Keys by clicking on Developers section
+
+Open your .env file in Workice CRM and modify the values below;
+
+.. code-block:: shell
+
+	MOLLIE_KEY={MOLLIE_API_KEY}
+
 Using a (Reverse) Proxy
-"""""""""""""""""""""""
+""""""""""""""""""""""""
 
 If you need to set a list of trusted (reverse) proxies you can modify **app/Http/Middleware/TrustProxies.php** file.  
 Your trusted proxies should be listed as an array on the **$proxies** property of this middleware. In addition to configuring the trusted proxies, you may configure the proxy **$headers** that should be trusted:

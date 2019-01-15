@@ -84,7 +84,7 @@ Invoice Page
 """"""""""""""""
 - **Show to client button**: Use this button to hide/show invoice to client.
 - **Pay Invoice button**: Click this button to make payment to an Invoice.
-- **Email button**: Email the invoice directly via Wrockie system to the email address specified for the client.
+- **Email button**: Email the invoice directly via Workice system to the email address specified for the client.
 - **Activity button**: Click to view invoice history.
 - **Set Reminder button**: Add custom reminder and get alert. e.g Reminder to send invoice
 - **Comments button**: Add invoice comments here.
