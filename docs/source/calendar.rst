@@ -5,7 +5,7 @@ Calendar
 
 Add Calendar Type
 """""""""""""""""""
-By default 2 calendar types are available, ``Work and Personal``. You are free to add/update or delete calendar types by clicking on the **Settings** icon at the top right of the Calendar page.
+By default 2 calendar types are available, ``Work and Personal``. You are free to add/update or delete calendar types by clicking on the **Gear** icon at the top right of the Calendar page.
 
 iCal Feed URL
 """""""""""""

@@ -1,42 +1,248 @@
 Reports
 =======
 
-It's easy to get caught up in the job you are currently working on, sending invoices and chasing payments. But it's just as important to take a step back from time to time, and to look at the bigger picture of how your freelance business is doing.
+You can only manage what you can measure. With `Workice CRM <https://workice.com>`__, manage the way your business is run with reporting that breaks down key metrics relating to your sales trends, invoices, projects, expenses and more. Reports are a great way to not only see how you're doing, but also forecast where you're going in the future.
 
-The Reports function helps you do just that. You can define your parameters and extract the exact information you need to generate a range of reports.
+.. ATTENTION:: All the charts and statistics displayed in the reports section will use your base currency.
 
-Report Settings
-"""""""""""""""
+Invoices Report
+"""""""""""""""""
 
-The Report Settings section enables you to set parameters and filter the data to generate the right report for you.
+Your Invoice Details Report gives you a comprehensive overview of all Invoices you have generated in a given time period.
+You can run an Invoice Report by doing the following:
 
-- **Type**: Click on the drop-down menu and choose the type of report you want to create. There's a wide range of report types to choose from, such as Invoice, Payment, Client, Quote, Expense, Profit and Loss, and more.
+ - Click on the Reports tab
+ - Select Invoices module from the **Modules** dropdown menu.
+ - Click **Reports** button.
 
-- **Date Range**: Click on the drop-down menu and choose the desired date range of your report. There are a number of pre-defined ranges to choose from, such as Last 7 Days, Last Month, Last Year and This Year. Or you can select a custom date range with the Start and End calendars. Click Apply to implement the custom range.
+There are a few options you can change when generating reports;
 
-- **Group Sort**: You can sort the report results according to various parameters. Click the drop-down menu to select a sort function from the options available for the chosen report type.
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Clients** – You can run Client(s) specific Invoice reports if necessary
+- **Recurring** – Choose to only include recurring invoices
+- **Status** – Choose to only include Invoices with specific statuses (such as Not Paid, Fully Paid, Cancelled etc)
+- **Sent** – Only display sent invoices
 
-.. TIP:: For some report types, there is an extra filter function that you can apply. When you select a report type that has an extra filter function, the filter field will automatically appear beneath the Group Sort field. For example, if you select Invoice report type, a field will appear below Group Sort that allows you to filter the report according to invoice status.
 
-- **Run**: Once you've selected all the parameters, click the green Run> button. The extracted data will show in the report display section below.  TIP: When you click Run>, the report will generate automatically, and includes only the relevant columns and data, based on the type of reports and dates selected. To view another report, simply change your selections and click Run>.
+Deals Report
+"""""""""""""""""
+These options are for simple and effective analysis of the bottom line: winning or losing deals.
 
-- **Export**: To export the report data, click the gray Export button. The report will automatically download as a .csv file. If you want to export the data as an Excel, PDF or Zip file, click the drop-down menu at the left of the Export button and choose the desired file type. Then click Export. The file will download in the format you selected.
+These reports are excellent milestone reports, to demonstrate how many deals were closed in the account.
 
-- **Schedule**: Don't have the time or mindspace to remember to download reports? You don't have to! With the Schedule feature, you can pre-select reports to be automatically generated at a frequency of your choosing, and sent to the email address linked to your Invoice Ninja account.
+.. NOTE:: If you have setup cron correctly, sales velocity and conversion rate will be calculated daily at 04:00.
 
-To schedule receiving the defined report, click the blue Schedule button.
+Sales velocity
+^^^^^^^^^^^^^^
+ - Displays the average amount of time a deal's creation until the deal it marked as WON or LOST.
+ - Recommended for gaining insight into how effective your users or processes are in closing deals quickly.
 
-In the pop-up box, select the Frequency you'd like to receive the report. Options include Daily, Weekly, Biweekly or Monthly. Then select the Start Date from when you want to begin receiving the report.
+Conversion Rate
+^^^^^^^^^^^^^^^^
+- Displays how many deals are won compared to the total number of deals.
+- Recommended for knowing if you lose many of your deals allowing you to make improvements to address any issues.
 
-After the report has been scheduled, you'll see a gray Cancel Schedule button on your Reports page. You can cancel the scheduled report at any time by clicking on the cancel button.
+Deals won
+^^^^^^^^^^
+     - Displays the number of deals marked as WON in a particular month.
+     - Recommended for an easy at-hand report of how your business is bringing in income through its sales process.
+     
+Deals lost
+^^^^^^^^^^^
+     - Displays the number of deals marked as LOST in a particular month.
+     - Recommended for an easy at-hand report of the deals that did not make it through, allowing you to do better in the future.
 
-Calendar
-""""""""
+You can run Deals Report by doing the following:
 
-Want a calendar style visualization of your Invoice Ninja activity? Click the gray Calendar button that appears at the top right of the Reports page. You can view details of Invoices, Payments, Quotes, Projects, Tasks and Expenses on the dates they occurred on the calendar.
+ - Click on the Reports tab
+ - Select Deals module from the **Modules** dropdown menu.
+ - Click **Reports** button.
 
-The calendar will include details of all transactions by default. To filter the calendar so it only displays some of your invoicing data, click inside the Filter field at the top right of the page. Select your desired filters from the drop-down menu.
+There are a few options you can change when generating reports;
 
-The calendar is customizable so you can create your preferred view. At the top right of the calendar, there are 4 periodic views tabs to choose from: Month, Week, Day or List. Click the preferred tab and the view will change automatically.
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Pipeline** – You can run reports for a specific pipeline
+- **Stage** – Choose to only include deals in specific stage
+- **User** – Choose to only include deals assigned to a user
+- **Status** – Only display deals in open, won or lost status 
 
-Select today's date by clicking the Today tab at the top left of the calendar. Or click the left or right arrows to move between time periods.
+Leads Report
+"""""""""""""""""
+
+A CRM leads report shows you how many leads your sales team has acquired in a given time frame, as well as the lead source and stages.
+You can run leads report by doing the following:
+
+ - Click on the Reports tab
+ - Select Leads module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Stage** – Choose to only include leads in specific stage
+- **Source** – You can run reports for a specific lead source e.g Google
+- **Sales Agent** – Choose to only include leads assigned to a user
+- **Archived** – Only display archived/unarchived leads
+
+
+Expenses Report
+"""""""""""""""""
+The Expense Report breaks down all of your expenses into detail.
+You can run expenses report by doing the following:
+
+ - Click on the Reports tab
+ - Select Expenses module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Client** – Choose to show expenses for a specific client
+- **Project** – You can run reports for a specific project
+- **Billable** – Choose to only include billable expenses
+- **Billed** – Only display billed/unbilled expenses
+- **Category** – Only display expenses in a specific category
+
+
+Payments Report
+"""""""""""""""""
+Your Payments Report breaks out all of the payments you have recorded in `Workice <https://workice.com>`__.
+You can run payments report by doing the following:
+
+ - Click on the Reports tab
+ - Select Payments module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Project** – You can run reports for a specific project
+- **Client** – Choose to show expenses for a specific client
+- **Invoice** – Choose to only include payments for an invoice
+- **Payment Method** – Only display payments received in a specific payment provider
+
+Estimates Report
+"""""""""""""""""
+The estimates report shows you how many estimates have been sent, approved or rejected in a given time frame.
+You can run estimates report by doing the following:
+
+ - Click on the Reports tab
+ - Select Estimates module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Client** – Choose to show estimates for a specific client
+- **Status** – Choose to show accepted, declined or pending estimates
+- **Sent** – Include only those estimates that have been sent/not sent
+- **Invoiced** – Choose to only include invoiced or uninvoiced estimates
+
+
+Credits Report
+"""""""""""""""""
+The creditnotes report shows you how many credits have been closed or open in a given time frame.
+You can run creditnotes report by doing the following:
+
+ - Click on the Reports tab
+ - Select Creditnotes module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Client** – Choose to show credits for a specific client
+- **Status** – Choose to show open or closed credits
+- **Sent** – Include only those credits that have been sent or not sent
+
+
+Projects Report
+"""""""""""""""""
+Within Workice Projects, you can generate a project report, designed to give you an overview of all projects within your CRM. 
+You can run projects report by doing the following:
+
+ - Click on the Reports tab
+ - Select Projects module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Client** – Choose to show projects for a specific client
+- **Status** – Choose to show active, done and on hold projects
+- **With Contract** – Include only those projects which has a contract or does not have a contract
+
+
+Tasks Report
+"""""""""""""""""
+The Tasks Report lists all tasks in your CRM, and allows you to filter by stage, milestone and task project. 
+You can run tasks report by doing the following:
+
+ - Click on the Reports tab
+ - Select Tasks module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Project** – Choose to show tasks for a specific project
+- **Milestone** – Choose to show tasks linked to a specific milestone
+- **Stage** – Include only those tasks in a particular stage
+- **User** – Include only those tasks created by a particular user
+
+Timesheet Reports
+"""""""""""""""""""
+The Timesheet Report is a very helpful way for your business to review how much time is being spent on a given project and by whom. Time Reports show the hours and billable information for each project, task and team member.
+
+You can run time report by doing the following:
+
+ - Click on the Reports tab
+ - Select Timesheets module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Project** – Choose to show time entries for a specific project
+- **Task** – Choose to show time entries for a specific task
+- **Billable** – Include only those time entries that are billable or unbillable
+- **User** – Include only those time entries created by a particular user
+
+
+Ticket Reports
+"""""""""""""""""""
+The tickets report show the number of tickets created and solved by date.
+
+You can run tickets report by doing the following:
+
+ - Click on the Reports tab
+ - Select Tickets module from the **Modules** dropdown menu.
+ - Click **Reports** button.
+
+There are a few options you can change when generating reports;
+
+- **Date Range** – You can set a date range you would like this report to include information within
+- **Reporter** – Choose to show only those ticket opened by a specific user
+- **Status** – Choose to show tickets in specified status e.g open, closed etc
+- **Department** – Choose to show tickets for a specific department
+- **Priority** – Choose to show tickets that have low,high or medium priority
+
+Agent Performance
+^^^^^^^^^^^^^^^^^^^
+You can view agent performance by clicking on **Type** button in the **Ticket Reports** page.
+
+The agent performance table contains the columns below;
+ - **Name**: Ticket agent name
+ - **Comments**: The number of ticket comments posted by the agent
+ - **Resolved**: The number of tickets solved by the agent
+ - **Feedback**: The percentage number of happy customer feedbacks
+
+Ticket Feedbacks
+^^^^^^^^^^^^^^^^^^^
+You can view ticket ratings by clicking on **Type** button in the **Ticket Reports** page.
+
+The ticket feedback table contains the columns below;
+ - **Name**: Ticket requester name
+ - **Ticket**: The ticket that the ticket requester rated
+ - **Date**: Date when the rating was received
+ - **Rating**: Whether the client was happy/dissatisfied

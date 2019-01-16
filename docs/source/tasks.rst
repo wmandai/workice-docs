@@ -16,7 +16,7 @@ Create Task
 
 Stages
 ^^^^^^^^
-To create project task stages, open a project and click on tasks tab. Click on the **settings** icon on the right side of the top navigation bar. A modal will popup that allows you to add, update or delete the stages.
+To create project task stages, open a project and click on tasks tab. Click on the **gears** icon on the right side of the top navigation bar. A modal will popup that allows you to add, update or delete the stages.
 
 New Task
 ^^^^^^^^^^^

@@ -34,7 +34,7 @@ Workice also makes it easy for you to create your own custom categories if a spe
 Adding/Editing Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Click on the **Settings** icon at the topbar of the expenses list page. A modal will popup with a list of all existing categories. Here you can add, edit and delete your expenses categories.
+Click on the **Gears** icon at the topbar of the expenses list page. A modal will popup with a list of all existing categories. Here you can add, edit and delete your expenses categories.
 
 How Taxes Work on Expenses
 """"""""""""""""""""""""""""""""
