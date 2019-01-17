@@ -122,7 +122,7 @@ Auto Reminders
 """"""""""""""""""
 Save yourself the time and hassle and automate your client communications! An invoice reminder is an automatic email message to remind your customer that an invoice is coming due or that it is overdue. This is a great way to stay on top of reminding your customers that you should be getting paid soon. To enabled Invoice Reminders, modify your **.env** file and change the value of ``AUTO_REMIND_INVOICES`` to false to disable it. Default is ``true``.
 
-. TIP:: Modify the number of days to send each invoice reminder in **Settings** - **Invoice Settings** section. You may also set late fee to apply on third reminder.
+.. TIP:: Modify the number of days to send each invoice reminder in **Settings** - **Invoice Settings** section. You may also set late fee to apply on third reminder.
 
 Recurring Invoice
 """"""""""""""""""

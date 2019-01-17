@@ -51,6 +51,5 @@ This documentation will help you learn all about creating and creating projects,
    invoice_settings
    payment_settings
    estimate_settings
-   reminders
    email_templates
    translations
