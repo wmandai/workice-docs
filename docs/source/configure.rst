@@ -52,6 +52,20 @@ Backup Settings
 - ``BACKUPS_MAIL_ALERT`` - Email to send notifications on successfull backup
 - ``BACKUPS_SLACK_WEBHOOK`` - Slack webhook to post backup notifications
 - ``BACKUPS_SLACK_CHANNEL`` - Slack channel to post backup notifications. Default blank
+ 
+Email Settings
+---------------
+ - ``MAIL_DRIVER`` - Email driver. Default **smtp**
+ - ``MAIL_HOST`` - Email host e.g **smtp.mailtrap.io**
+ - ``MAIL_PORT`` - Outgoing email port e.g **2525**
+ - ``MAIL_USERNAME`` - Outgoing email username
+ - ``MAIL_PASSWORD`` - Outgoing email password
+ - ``MAIL_ENCRYPTION`` - Default null
+
+ - ``MAIL_FROM_ADDRESS`` - The email address that sends emails (Your company address)
+ - ``MAIL_FROM_NAME`` - Your company name that appears on emails
+
+.. ATTENTION:: To send a test email go to **Settings** -> **System Info** and click on **Test Email** button.
 
 Paypal Configuration
 ---------------------
