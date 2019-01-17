@@ -1,5 +1,9 @@
 Deals
 =======
+.. meta::
+   :description: Start sending & receiving emails inside Workice CRM to have all your sales communication in one place..
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+
 Clicking on the “Deals” tab in Workice CRM takes you to our comprehensive CRM, a feature exclusive to our Small Business and Enterprise plans.
 
 .. TIP:: You can choose the deal view type ie. **Kanban view** or **Table View** by selecting the Table icon on the deals page.

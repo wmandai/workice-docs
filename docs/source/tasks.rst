@@ -1,6 +1,9 @@
 Tasks
 =====
-
+.. meta::
+   :description: Track hourly billed tasks and expenses with ease and convert them into elegant invoices at the push of a button.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   
 Projects are made up of tasks, and knowing how to manage your tasks (and everyone else’s) is the secret to getting your projects completed on time.
 The ability to keep track of your tasks and deadlines makes the task management feature a crucial tool for your freelance business needs.
 

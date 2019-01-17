@@ -1,5 +1,8 @@
 Payments
 ========
+.. meta::
+   :description: Accept credit cards and many payment gateways from day one, and let clients pay right from your invoice.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
 
 Workice CRM handles your entire freelance invoicing process – from sending estimate, to invoicing your client, to receiving payment. What’s more, you can receive payments directly and automatically via workice supported gateways enabling totally smooth management of your customer accounts using your choice of payment provider.
 

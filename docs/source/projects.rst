@@ -1,5 +1,8 @@
 Projects
 ========
+.. meta::
+   :description: Track hourly billed tasks and expenses with ease and convert them into elegant invoices at the push of a button.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
 
 To help manage costs you can set project budgets, record expenses and track timesheets against the project and tasks. If you’re charging a customer for your work, you have the flexibility to charge fixed amounts as work is completed and/or set time-based billable rates. Hourly rates can be set for each team member.
 

@@ -1,6 +1,9 @@
 Creditnotes
 ===========
-
+.. meta::
+   :description: Credits are a great way to track payments received from Clients that have not been applied yet.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   
 Credits List
 """"""""""""
 

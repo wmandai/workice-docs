@@ -1,5 +1,8 @@
 Estimates
 ==========
+.. meta::
+   :description: Set up an estimate just like you would set up the respective invoice, send it to your client, and wait for their approval.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
 
 Estimates allow you to create and send an approximate outline of your Items or Freelancer Services to your Client for approval before beginning the work. The client can then Accept the Estimate for approval before converting it into an Invoice automatically, or you can go ahead and convert it yourself to start collecting payment!
 

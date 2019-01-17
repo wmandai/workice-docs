@@ -1,5 +1,8 @@
 Tickets
 =======
+.. meta::
+   :description: Easily deal with customer support tickets, create knowledgebase to provide the best possible support for your freelance services.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
 
 Tickets are the means through which your end users (customers) communicate with agents in your support system. `Workice <https://workice.com>`__ support system allows you to present a web portal to your customers to create, track, and respond to support requests.
 Regardless of the type of customer support you provide, the one constant for all support organizations is that customers seek you out to help them resolve their issues. 

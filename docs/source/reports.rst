@@ -1,5 +1,8 @@
 Reports
 =======
+.. meta::
+   :description: Stay on track with your finances with dynamically generated reports, monthly and yearly reports, income and expenses summaries.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
 
 You can only manage what you can measure. With `Workice CRM <https://workice.com>`__, manage the way your business is run with reporting that breaks down key metrics relating to your sales trends, invoices, projects, expenses and more. Reports are a great way to not only see how you're doing, but also forecast where you're going in the future.
 
