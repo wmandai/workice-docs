@@ -38,7 +38,6 @@ This documentation will help you learn all about creating and creating projects,
    calendar
    tickets
    reports
-   settings
 
 .. _advanced-settings:
 
