@@ -1,51 +1,24 @@
 Translations
 ===================
 
-The Invoice Ninja iPhone and Android applications allows a user to connect to their self-hosted Invoice Ninja web application.
+Translations are a collection of visual elements in the `Workice <https://workice.com>`__ application, like labels, information messages, notifications, alerts, work flow statuses, etc
 
-.. TIP:: If you're unable to access the Android app store you can download the APK here: https://download.invoiceninja.com/apk
+To modify the text translated to the target language, navigate to **Settings** > **Translations** in the main menu.
+ - Click on the **Pencil** icon of the language you want to modify.
+ - Click the **Pencil** icon to modify the language file i.e app or activity language files
+ - Replace the text displayed on your right side with your language equivalent
+ - English version is displayed on the left side.
 
-Connecting your to your self-hosted invoice ninja installation requires a couple of easy steps.
+Backup Translations
+^^^^^^^^^^^^^^^^^^^^^
+To backup your custom translations.
+ - Navigate to **Settings** > **Translations** and click on **Backup** button.
+ - A JSON file will be downloaded with your custom translations
 
-Web App configuration
-"""""""""""""""""""""
-
-First, you'll need to add an additional field to your .env file which is located in the root directory of your self-hosted Invoice Ninja installation.
-
-The additional field to add is API_SECRET, set this to your own defined alphanumeric string.
-
-.. image:: images/env_file_api_secret.png
-
-Save your .env file and now open Invoice Ninja on your iPhone.
-
-
-Mobile App configuration
-""""""""""""""""""""""""
-
-Once you have completed the in-app purchase to unlock the mobile app to connect to your own server, you'll be presented with two fields.
-
-The first is the Base URL of your self-hosted installation, ie http://ninja.yourapp.com
-
-The second field is the API_SECRET, enter in the API_SECRET you used in your .env file.
-
-.. image:: images/iphone_self_hosted.png
-
-Click SAVE.
-
-You should now be able to login with your username and password!
-
-
-FAQ:
-""""
-
-Q: I get a HTTP 500 error.
-
-A: Most likely you have not entered your API_SECRET in your .env file
-
-Q: I get a HTTP 403 error when i attempt to login with the iPhone or Android device.
-
-A: Most likely your API_SECRET on the iPhone/Android device does not match that on your self-hosted installation.
-
-Q: Do I need to create a token on the server?
-
-A: No, this is not required. The server will automagically create a token if one does not exist on first login.
+Restore Backup Translations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To restore your translations.
+ - Navigate to **Settings** > **Translations** and click on **Restore** button.
+ - Upload your backup file to restore your translations
+   
+.. ATTENTION:: This action will overwrite your current translations
