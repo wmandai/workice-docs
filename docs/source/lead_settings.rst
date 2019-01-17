@@ -1,4 +1,4 @@
-Leads Settings
+Lead Settings
 ===============
 You can view and edit the lead configuration in your CRM by going to **Settings** and clicking on the **Lead Settings**.
 
