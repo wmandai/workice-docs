@@ -8,3 +8,9 @@
 .wy-nav-top {
     background: #3869d4;
 }
+.rst-content a:visited {
+    color: #3869d4;
+}
+.rst-content a {
+    color: #3869d4;
+}

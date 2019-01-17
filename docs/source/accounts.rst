@@ -1,5 +1,8 @@
 Accounts
 =========
+.. meta::
+   :description: Stay organized by keeping your clients, projects, hourly rates and deals in one place.
+   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
 
 Your clients are the core of your freelance business. Accounts/Clients in `WorkiceCRM <https://workice.com/>`_ will typically hold all information specific to a company that your organisation will have a relationship with. In real world terms an Account may be a business entity that is a qualified Sales Prospect, Customer, Supplier or Re-seller and can be used to track all interactions that take place between these entities and your organisation. The relationship between the account and contact records is one-to-many, such that there can be many contacts associated with a single account.
 
