@@ -7,7 +7,7 @@ You can modify the settings below;
  - **Deal Rotting**: Number of days before a deal is marked as idle
  - **Auto Invoice**: Automatically create an Invoice when deal is won
  - **Default Pipeline**: The default deal pipeline
- - **Default Stage**: The default deal stage. ``Ensure it matches the Default pipeline``
+ - **Default Stage**: The default deal stage. ``Ensure the stage is in the default pipeline above``
  - **Default Deal Owner**: The default user assigned to deals
 
 IMAP Settings
