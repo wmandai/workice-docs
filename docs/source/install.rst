@@ -1,7 +1,7 @@
 Install
 ========
 
-Thanks for purchasing Workice CRM.
+Thanks for purchasing `Workice CRM <https://workice.com>`__.
 
 .. Note:: The applications requires PHP >= 7.1.3 and MySQL.
 
@@ -30,7 +30,7 @@ The zip includes all dependencies.
 
 https://workice.com
 
-- Release Notes: `workice.com/releases <https://workice.com/releases>`_
+- Release Notes: `Changelogs <changelogs.html>`__ 
 
 - Feature requests: `desk.workice.com/features <https://desk.workice.com/features>`_
 
