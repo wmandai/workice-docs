@@ -2,7 +2,7 @@ Subscriptions
 =============
 .. meta::
    :description: Take the hassle out of using separate systems to manage your sales leads and subscriptions.
-   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
 Subscriptions feature helps you bill customers for your services once or on a recurring basis. Effortlessly manage the entire customer life cycle, from onboarding a customer for a subscription plan to accepting payments.
 Once a subscription has been created, it will begin to auto-renew on the period specified by the product to which it is related. There’s not much you need to do, other than keep tabs on them from time to time looking for subscriptions that go sour.

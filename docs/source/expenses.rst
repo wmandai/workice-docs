@@ -2,7 +2,7 @@ Expenses
 ========
 .. meta::
    :description: Workice CRM makes it easy to keep track of your spending. This article shows you how to add an Expense, as well as set up recurring Expenses and even re-categorizing them.
-   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
 Track all of your lunch meetings or training materials, and other miscellaneous expenses in the Expenses section, and instantly bill clients.
 Expenses allow you to capture the billable and non-billable costs that you incur as part of your project work. These non-labor expenses are usually itemized costs for things like materials, travel expenses, or fixed-fee services. Typically, billable expenses are passed on to a client or customer, whereas non-billable expenses are internal costs paid for by your employer.

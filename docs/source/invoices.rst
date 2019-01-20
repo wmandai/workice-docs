@@ -2,7 +2,7 @@ Invoices
 ========
 .. meta::
    :description: Invoice and Project Management for freelancers and small business. Easily create and track invoices and get paid online. Manage your deals and leads.
-   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
 Invoices allow you to bill a Client for your products and/or services, and help you keep track of your income in Workice CRM. 
 Every invoice paid means more revenue coming into your business. Create and send professional invoices to your customers in seconds. Once you’ve entered the client and tax information, you’ll have a range of actions at your fingertips – from saving a draft, to sending the invoice to the client via email, to printing a PDF hard copy.

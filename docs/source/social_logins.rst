@@ -2,7 +2,7 @@ Social Logins
 ===============
 .. meta::
    :description: Built into a smart work flow that includes e-signatures for your freelancer e-contracts.
-   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes, freelanceroffice
+   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
 In addition to typical, form based authentication, `Workice CRM <https://workice.com>`__ also provides a simple, convenient way to authenticate with OAuth providers. 
 

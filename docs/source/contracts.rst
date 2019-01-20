@@ -2,7 +2,7 @@ Contracts
 =========
 .. meta::
    :description: Built into a smart work flow that includes e-signatures for your e-contracts.
-   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
 One of the ways of building a relationship between a freelance developer and a client is to offer econtracts built into your web interface. Econtracts is a movement towards a faster and more seamless contract process and experience.
 

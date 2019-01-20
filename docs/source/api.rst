@@ -2,7 +2,7 @@ API
 ===
 .. meta::
    :description: Access your Workice CRM invoices, deals and projects using RESTful API
-   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
 Workice CRM provides a RESTful API. Below are the API Endpoints you can use;
 

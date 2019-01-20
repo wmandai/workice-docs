@@ -1,9 +1,8 @@
 Translations
 ===================
-
 .. meta::
    :description: Support for multiple languages to avoid any language barrier
-   :keywords: projects, invoices, deals, leads, crm, estimates, tickets, subscriptions, tasks, contacts, contracts, creditnotes
+   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
 Translations are a collection of visual elements in the `Workice <https://workice.com>`__ application, like labels, information messages, notifications, alerts, work flow statuses, etc
 
