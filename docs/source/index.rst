@@ -5,7 +5,7 @@ User Guide
    :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
    :google-site-verification: 04wm9KLNfzd-GtMtIGF0alg6_Q-48EGQxYlDpVKUEto
 
-This documentation will help you learn all about creating and creating projects, sending invoices, receiving payments, creating tasks, converting estimates to invoices, recurring invoices, entering credits, support system and much more.
+This documentation will help you learn all about creating projects, sending invoices, receiving payments, creating tasks, converting estimates to invoices, recurring invoices, creating creditnotes, support system and much more.
 
 .. _installation:
 
