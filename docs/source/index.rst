@@ -15,6 +15,7 @@ This documentation will help you learn all about creating and creating projects,
 
    install
    configure
+   social_logins
    update
    changelogs
    api
