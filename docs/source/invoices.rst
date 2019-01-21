@@ -107,7 +107,7 @@ Email Invoice Preview
 When you are ready to send an invoice to the client, click the Email Invoice button. Before the invoice email is sent, a pop-up box will open, displaying a preview of the email. Here, you can add additonal comment to the email.
 
 Customizing the Invoice Email Template
-''''''''''''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To customize the email template, go to **Settings** - **Translations** and click on **Emails button** on the top navigation and select the locale you want to modify.
 
@@ -123,7 +123,23 @@ Recycling is a good thing, so why waste time and effort writing in the same item
 
 Auto Reminders
 """"""""""""""""""
-Save yourself the time and hassle and automate your client communications! An invoice reminder is an automatic email message to remind your customer that an invoice is coming due or that it is overdue. This is a great way to stay on top of reminding your customers that you should be getting paid soon. To enabled Invoice Reminders, modify your **.env** file and change the value of ``AUTO_REMIND_INVOICES`` to false to disable it. Default is ``true``.
+
+Save yourself the time and hassle and automate your client communications! An invoice reminder is an automatic email message to remind your customer that an invoice is coming due or that it is overdue. This is a great way to stay on top of reminding your customers that you should be getting paid soon.
+
+You can have Workice CRM send reminders that invoices will be due to be paid soon, and we call these **Upcoming Reminders**.
+You can also have Workice send reminders that invoices are overdue, and we call these **Overdue Reminders**.
+
+Upcoming Reminders
+^^^^^^^^^^^^^^^^^^^^
+To send invoice reminders before the due date, modify ``INVOICE_REMIND_DAYS`` in your .env file.
+ - Change to the number of days you want a reminder to be sent before the due date.
+ - Example; ``INVOICE_REMIND_DAYS=3`` will send invoice reminders 3 days before invoice overdue date.
+   
+Overdue Reminders
+^^^^^^^^^^^^^^^^^^^
+To enable Invoice Overdue Reminders, modify your **.env** file and change the value of ``AUTO_REMIND_INVOICES`` to false to disable it. Default is ``true``.
+
+Once you’ve got these reminders set up, you don’t have to do anything else; Workice will continue to send these reminders on the schedule you set until the end of time (or until you get paid, whichever comes first).
 
 .. TIP:: Modify the number of days to send each invoice reminder in **Settings** - **Invoice Settings** section. You may also set late fee to apply on third reminder.
 
