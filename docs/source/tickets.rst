@@ -55,3 +55,11 @@ If you need to perform an action for a number of tickets, you can do it in one c
 - **Close**: Close selected tickets
 - **Archive**: Archive selected tickets.
 - **Delete**: Delete selected tickets.
+  
+Customer Satisfaction Ratings
+""""""""""""""""""""""""""""""""
+If you enable Customer Satisfaction Ratings in Workice Support, your customers will receive an email notification after their ticket has been solved asking them to rate their support experience. You can modify the number of days before a rating request is sent in **Settings** > **Ticket Settings** > **Feedback Request**. Setting it to ``zero`` will disable the feature.
+
+AnswerBot
+"""""""""""
+Answer Bot works right alongside your support team to help answer your customers’ questions. With content from your Workice knowledge base, Answer Bot suggests articles to your customers to resolve their issues. The customer reviews the articles and if an answer is found, they can mark their question as answered and close the ticket.
