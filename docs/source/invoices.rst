@@ -131,13 +131,15 @@ You can also have Workice send reminders that invoices are overdue, and we call 
 
 Upcoming Reminders
 ^^^^^^^^^^^^^^^^^^^^
-To send invoice reminders before the due date, modify ``INVOICE_REMIND_DAYS`` in your .env file.
+
+To send invoice reminders before the due date, modify **Settings** > **Invoice Settings** > **Upcoming reminders**. Default is 3 days
+
  - Change to the number of days you want a reminder to be sent before the due date.
- - Example; ``INVOICE_REMIND_DAYS=3`` will send invoice reminders 3 days before invoice overdue date.
+ - Example; Setting it to 2 days will send invoice reminders 2 days before invoice overdue date.
    
 Overdue Reminders
 ^^^^^^^^^^^^^^^^^^^
-To enable Invoice Overdue Reminders, modify your **.env** file and change the value of ``AUTO_REMIND_INVOICES`` to false to disable it. Default is ``true``.
+To enable Invoice Overdue Reminders, go to **Settings** > **Invoice Settings** > **Send Overdue Emails** and enable it.
 
 Once you’ve got these reminders set up, you don’t have to do anything else; Workice will continue to send these reminders on the schedule you set until the end of time (or until you get paid, whichever comes first).
 
@@ -157,6 +159,9 @@ To make a invoice recur, edit the invoice and select the **Recur Every** dropdow
 
 When the invoices from this invoice will be generated you will have an overview which invoices are generated from this invoice at the Child Invoices link on the invoice page.
 
+Apply Credit Notes
+""""""""""""""""""""""
+When an invoice has recurred, you can choose to apply client credits to the invoice by enabling this feature in **Settings** > **Invoice Settings** > **Apply Credits**.
 
 Bulk Actions
 """"""""""""""""
