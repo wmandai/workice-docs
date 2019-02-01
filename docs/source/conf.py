@@ -193,8 +193,8 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 todo_include_todos = True
 html_show_sourcelink = False
 html_show_sphinx = False
-# html_baseurl = 'https://docs.workice.com/'
-site_url = 'https://docs.workice.com/'
+html_baseurl = 'https://docs.workice.com/en/latest/'
+site_url = 'https://docs.workice.com/en/latest/'
 html_favicon = 'images/favicon-32x32.png'
 def setup(app):
     app.add_stylesheet('css/custom.css')
