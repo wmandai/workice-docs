@@ -24,9 +24,11 @@ copyright = u'2019, William Mandai'
 author = u'William Mandai'
 
 # The short X.Y version
-version = u''
+version = u'latest'
 # The full version, including alpha/beta/rc tags
-release = u'v2'
+release = u'latest'
+
+language = 'en'
 
 
 # -- General configuration ---------------------------------------------------
