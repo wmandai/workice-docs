@@ -3,7 +3,10 @@ Introduction
 
 `Workice CRM <https://workice.com>`__ is a place for you to store information on the people and clients you interact with and track your outreach efforts. The CRM includes sales and marketing dashboards, invoicing dashboard, expenses dashboard, payments dashboard, projects and ticketing dashboards.
 
-To purchase Workice CRM visit `Envato Market <https://codecanyon.net/user/gitbench>`__
+.. NOTE:: Workice CRM is build with `Laravel Framework <https://laravel.com>`__
+
+To purchase Workice CRM `Click Here <https://workice.com>`__
+
 
 Top Navigation
 ^^^^^^^^^^^^^^

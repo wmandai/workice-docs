@@ -7,6 +7,10 @@ User Guide
 
 This documentation will help you learn all about creating projects, sending invoices, receiving payments, creating tasks, converting estimates to invoices, recurring invoices, creating creditnotes, support system and much more.
 
+.. NOTE:: Workice CRM is build with `Laravel Framework <https://laravel.com>`__
+
+To purchase Workice CRM `Click Here <https://workice.com>`__
+
 .. _installation:
 
 .. toctree::
