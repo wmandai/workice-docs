@@ -3,6 +3,8 @@ Install
 
 Thanks for purchasing `Workice CRM <https://workice.com>`__.
 
+.. NOTE:: Workice CRM is build with `Laravel Framework <https://laravel.com>`__
+
 .. Note:: The applications requires PHP >= 7.1.3 and MySQL.
 
 Required PHP Extensions

@@ -2,7 +2,7 @@ User Guide
 ==========
 .. meta::
    :description: Workice CRM is web based invoicing for freelancers and small businesses. Create and send invoices and estimates, track time and expenses and accept online payments.
-   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
+   :keywords: projects,invoices,freelancer,laravel,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
    :google-site-verification: 04wm9KLNfzd-GtMtIGF0alg6_Q-48EGQxYlDpVKUEto
 
 This documentation will help you learn all about creating projects, sending invoices, receiving payments, creating tasks, converting estimates to invoices, recurring invoices, creating creditnotes, support system and much more.
