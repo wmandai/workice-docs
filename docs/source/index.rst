@@ -60,5 +60,6 @@ To purchase Workice CRM `Click Here <https://workice.com>`__
    invoice_settings
    payment_settings
    estimate_settings
+   ticket_settings
    email_templates
    translations

@@ -10,12 +10,15 @@ You can modify the settings below;
  - **Auto Delete**: When a lead is converted to a customer, delete it.
 
 IMAP Settings
+^^^^^^^^^^^^^^^
+Workice keeps track of all your emails, no matter where you send or receive them.
+When this option is enabled, email conversation history with each lead will be pulled in and become instantly visible in your lead email conversations.
+Sending an email to multiple recipients? We will notify you when a lead opens an email and at what time.
+
  - **IMAP**: Enable IMAP email retrival
  - **IMAP Host**: Your IMAP Host e.g imap.gmail.com
  - **IMAP Username**: Your IMAP username/full address
  - **IMAP Password**: Imap Password
  - **Mail Port**: IMAP port e.g 587
- - **Mail Flags**: IMAP flags. Default /imap/ssl/validate-cert
- - **Mail SSL**: Enable secure email connection using SSL
+ - **Mail Flags**: IMAP flags. Default /imap/ssl/novalidate-cert
  - **Mailbox**: Mail folder. Default INBOX
- - **IMAP Search**: Get messages matching the given search criteria. Default UNSEEN
