@@ -34,7 +34,7 @@ https://workice.com
 
 - Release Notes: `Changelogs <changelogs.html>`__ 
 
-- Feature requests: `desk.workice.com/features <https://desk.workice.com/features>`_
+- Feature requests: `desk.workice.com <https://desk.workice.com>`_
 
 Step 2: Upload the code to your server
 """"""""""""""""""""""""""""""""""""""

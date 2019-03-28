@@ -23,6 +23,7 @@ To purchase Workice CRM `Click Here <https://workice.com>`__
    update
    changelogs
    api
+   migration
 
 .. _basic-features:
 

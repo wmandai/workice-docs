@@ -25,3 +25,6 @@ To restore your translations.
  - Upload your backup file to restore your translations
    
 .. ATTENTION:: This action will overwrite your current translations
+
+
+.. NOTE:: If you need your translations added to next updates you can help translate it on `Github <https://github.com/wmandai/workice-translations>`__

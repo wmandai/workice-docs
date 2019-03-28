@@ -19,6 +19,12 @@ You can change the queue driver in your .env file ``QUEUE_DRIVER=database``
 
 .. Note:: You can process the jobs by running ``php artisan queue:work --queue=default,high,normal,low --tries=3 --daemon``.
 
+Supervisord Configuration
+-----------------------------
+We highly recommend configuring supervisord to monitor your processes and restart your queue if it fails.  
+Read more on `Supervisord Configuration <https://laravel.com/docs/5.7/queues#supervisor-configuration>`__
+
+
 Application Configuration
 """""""""""""""""""""""""
 You can set your application to production by modifying this value in .env file.
@@ -41,9 +47,10 @@ Here some of the system configurations you can change in your .env
 - ``ALERT_TODO_DAYS`` - Number of days to notify me before a todo is overdue  
 - ``ESTIMATE_REMIND_DAYS`` - Number of days before a reminder is sent to client about expiring estimate. Default 2 days  
 - ``CONTRACT_REMIND_DAYS`` - Days before a client is notified of expiring contract that has not been signed. Default 2 days  
-- ``ENABLE_DRIFT`` - Enable `Drift <https://drift.com>`_  
-- ``ENABLE_CRISP`` - Enable `Crisp <https://crisp.chat>`_  
-- ``ENABLE_ONESIGNAL`` - Enable `Onesignal <https://onesignal.com>`_  
+- ``ENABLE_DRIFT`` - Enable `Drift <https://drift.com>`_  (Read below on how to configure)
+- ``ENABLE_CRISP`` - Enable `Crisp <https://crisp.chat>`_  (Read below on how to configure)
+- ``ENABLE_ONESIGNAL`` - Enable `Onesignal <https://onesignal.com>`_ (Read below on how to configure)
+- ``ENABLE_TAWK`` - Enable `Tawk <https://tawk.to>`_   (Read below on how to configure)
 
 Backup Settings
 ---------------
@@ -190,6 +197,26 @@ Open your .env file in Workice CRM and modify the values below;
 Google Calendar Setup
 """""""""""""""""""""""
 To display events from your Google Calendar, Go to **Settings** -> **System Settings** and enter your Google Calendar API key and your Google Calendar ID. Once the settings are configured, your events will display on Workice calendar.
+
+Crisp, Drift, Onesignal and Tawk.to
+""""""""""""""""""""""""""""""""""""""""""""""""
+After you have signed up to the services above, proceed as follows;  
+
+Onesignal
+------------
+After you have enabled onesignal in your .env, copy the **script code** they have given you and paste it in **/resources/views/partial/onesignal.blade.php** (Replace the sample code in that file).
+
+Drift
+------------
+After you have enabled drift in your .env, copy the **script code** they have given you and paste it in **/resources/views/partial/drift.blade.php** (Replace the sample code in that file).
+
+Crisp
+------------
+After you have enabled crisp in your .env, copy the **script code** they have given you and paste it in **/resources/views/partial/crisp.blade.php** (Replace the sample code in that file).
+
+Tawk
+------------
+After you have enabled tawk.to in your .env, copy the **script code** they have given you and paste it in **/resources/views/partial/tawk.blade.php** (Replace the sample code in that file).
 
 Using a (Reverse) Proxy
 """"""""""""""""""""""""
