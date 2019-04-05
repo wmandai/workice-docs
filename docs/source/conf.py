@@ -158,8 +158,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WorkiceCRM', u'Workice CRM Documentation',
-     author, 'WorkiceCRM', 'One CRM to manage your entire invoicing, expenses, deals and projects',
+    (master_doc, 'WorkiceCRM', u'Documentation',
+     author, 'WorkiceCRM', 'One CRM to manage your entire freelancer business - invoicing, expenses, deals and projects',
      'Miscellaneous'),
 ]
 
@@ -195,6 +195,7 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 todo_include_todos = True
 html_show_sourcelink = False
 html_show_sphinx = False
+html_title = u'Workice CRM Documentation'
 html_baseurl = 'https://docs.workice.com/'
 #site_url = 'https://docs.workice.com/en/latest/'
 html_favicon = 'images/favicon-32x32.png'
