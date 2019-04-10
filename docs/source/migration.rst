@@ -12,7 +12,7 @@ Extract the downloaded file and upload it to your Root folder where **freelancer
  - Access the URL where you uploaded the above file example **http://your-freelancer-office.com/workice-importer.php**.
  - The import file will attempt to generate a JSON version of your data and create a file named **crmdata.json** in Root folder (We will require that file to import the data to Workice CRM).
 
-.. ATTENTION:: Download the JSON file (crmdata.json) from your server and delete file **workice-importer.php**
+.. ATTENTION:: Download the JSON file (crmdata.json) from your server and delete file **workice-importer.php** and **crmdata.json**
 
 Import to Workice
 ^^^^^^^^^^^^^^^^^^^^^^^
