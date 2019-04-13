@@ -183,7 +183,7 @@ Here is a sample of how you can set the permissions;
 
    cd /path/to/workice
    chmod -R 775 storage 
-   sudo chown -R ubuntu:www-data storage bootstrap public
+   sudo chown -R ubuntu:www-data storage bootstrap/cache public
 
 - Check your webserver log (ie, /var/log/apache2/error.log) and the application logs (storage/logs/laravel-error.log) for more details or set ``APP_DEBUG=true`` in .env
 - To resolve ``file_put_contents(...): failed to open stream: Permission denied`` run ``chmod -R 777 storage`` then ``chmod -R 755 storage``

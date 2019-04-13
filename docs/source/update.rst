@@ -1,7 +1,7 @@
 Update
 ======
 
-.. NOTE:: We recommend backing up your database with mysqldump before updating the app.
+.. NOTE:: We recommend backing up your files and database before updating the app.
 
 Workice CRM checks for updates daily and notifies you via email if there is a new update. You can disable update notifications in **Settings** > **System Settings** > **Update Notifications**.
 
@@ -14,11 +14,27 @@ Enter the time when the app should update and timezone.
 
 If you're moving servers make sure to copy over the .env file.
 
+If incase the system update fails and shows **Maintenance Mode**, run the command ``php artisan up`` manually and check the storage/logs folder for issues.
+You will receive an email if the update is successful/fails.
+
+Fixing Permissions
+"""""""""""""""""""""
+Never set your folder to 777 permission.
+If you give any of your folders 777 permissions, you are allowing ANYONE to read, write and execute any file in that directory.... what this means is you have given ANYONE (any hacker or malicious person in the entire world) permission to upload ANY file, virus or any other file, and THEN execute that file.
+
+To fix permissions issue run command ``sudo chown -R my-user:www-data /path/to/your/workice/root/directory``
+
+Then give both yourself and the webserver permissions as shown;
+
+``sudo find /path/to/your/workice/root/directory -type f -exec chmod 664 {} \;``
+``sudo find /path/to/your/workice/root/directory -type d -exec chmod 775 {} \;``
+
+Then give the webserver the rights to read and write to storage and cache.
+
+``sudo chgrp -R www-data storage bootstrap/cache``  
+
+``sudo chmod -R ug+rwx storage bootstrap/cache``  
+
+Credits https://stackoverflow.com/questions/30639174/how-to-set-up-file-permissions-for-laravel-5-and-others
+
 .. TIP:: You can see the detailed `changelogs </changelog.html>`_ for each release.
-
-Version 2.0
-"""""""""""
-
-Copy .env.example to .env and set config settings
-
-Check that ``/path/to/workice/storage`` has 755 permissions and is owned by the webserver user
