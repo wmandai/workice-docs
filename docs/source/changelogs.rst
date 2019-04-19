@@ -1,6 +1,13 @@
 Changelogs
 ==========
 
+Version 2.0.2
+"""""""""""""""
+ - Fix importing old data
+ - Fixed installation company name containing white space
+ - Fixed department filter in tickets
+ - Fixed Recaptcha
+
 Version 2.0.1
 """""""""""""""
  - Fix help me link not working in dashboard

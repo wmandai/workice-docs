@@ -35,11 +35,25 @@ You’ll need to create a new database along with a user to access it. Most host
 .. code-block:: shell
 
 	CREATE DATABASE workicecrm;  
-	CREATE USER 'workicecrm' IDENTIFIED BY 'workicecrm##';  
-	GRANT ALL PRIVILEGES ON workicecrm.* to workicecrm@'%' identified by 'workicecrm##';  
+	CREATE USER 'workicecrm' IDENTIFIED BY 'workicecrm@@';  
+	GRANT ALL PRIVILEGES ON workicecrm.* to workicecrm@'%' identified by 'workicecrm@@';  
 	FLUSH PRIVILEGES;
 
 - You will need to enter this credentials in the steps below.
+
+File Permissions
+""""""""""""""""""
+The webserver should be able to write to this directories **storage**, **public** and **bootstrap/cache**.
+Here is a sample of how you can set the permissions in ubuntu server.
+
+.. code-block:: shell
+
+   sudo chown -R ubuntu:www-data /path/to/workice
+   cd /path/to/workice
+   sudo find -type f -exec chmod 664 {} \;
+   sudo find -type d -exec chmod 775 {} \;
+   sudo chgrp -R www-data bootstrap/cache storage
+   sudo chmod -R ug+rwx bootstrap/cache storage
 
 There are 2 steps to install Workice CRM
  - Using the built in web installer
@@ -63,7 +77,7 @@ Shared hosting with cpanel (Sub Domain)
 
 The steps below shows how you can install workice to be accessible via a sub domain e.g **https://crm.your domain.com**
 
- - Create a folder inside **public_html or wwww** e.g **workicecrm** and upload your downloaded files into the folder.
+ - Create a folder inside **public_html or www** e.g **workicecrm** and upload your downloaded files into the folder.
  - Go to sub domains on your cpanel dashboard and create a sub domain
  - Enter **crm** as your subdomain name
  - Enter **public_html/crm/public** as your sub domain Document Root
@@ -173,17 +187,6 @@ See the `details here <configure.html>`_ for additional configuration options.
 
 Troubleshooting
 ^^^^^^^^^^^^^^^^^
-
-File Permissions
-""""""""""""""""""
-The webserver should be able to write to this directories **storage**, **public** and **bootstrap/cache**.
-Here is a sample of how you can set the permissions;
-
-.. code-block:: shell
-
-   cd /path/to/workice
-   chmod -R 775 storage 
-   sudo chown -R ubuntu:www-data storage bootstrap/cache public
 
 - Check your webserver log (ie, /var/log/apache2/error.log) and the application logs (storage/logs/laravel-error.log) for more details or set ``APP_DEBUG=true`` in .env
 - To resolve ``file_put_contents(...): failed to open stream: Permission denied`` run ``chmod -R 777 storage`` then ``chmod -R 755 storage``
