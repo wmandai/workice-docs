@@ -65,23 +65,31 @@ Download the code from Envato Market Downloads page.
 The zipped file includes all dependencies.
 The following steps shows how to install Workice CRM;
 
+Shared hosting with cpanel (Sub Domain)
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+.. TIP:: Use this method only if you want to install Workice on a sub domain e.g crm.yourdomain.com
+
+The steps below shows how you can install workice to be accessible via a sub domain e.g **https://crm.your domain.com**
+
+ - Create a folder inside **public_html or www** e.g **workice** and upload your downloaded files into the folder (Make sure it includes hidden files e.g .env)
+ - Go to sub domains on your cpanel dashboard and create a sub domain
+ - Enter **crm** as your subdomain name e.g crm.yourdomain.com
+ - Enter **public_html/workice/public** as your sub domain Document Root
+ - Save it and access **http://crm.your-domain.com/installer** 
+ 
+ .. ATTENTION:: The url **/installer** does not point to a folder so do not attempt to create a folder named installer
+
 Shared hosting with cpanel (ROOT FOLDER)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. TIP:: Use this method only if you want to install Workice on your main domain e.g yourdomain.com
+
  - Upload the files to your server in the same location where public_html or www folder is located.
  - Do not upload it inside the public_html or www folder
  - Now move the **public** folder alone to **public_html or www** folder.
  - You can now access the web installer by visiting http://your-domain.com/installer
  
-Shared hosting with cpanel (Sub Domain)
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-The steps below shows how you can install workice to be accessible via a sub domain e.g **https://crm.your domain.com**
-
- - Create a folder inside **public_html or www** e.g **workicecrm** and upload your downloaded files into the folder.
- - Go to sub domains on your cpanel dashboard and create a sub domain
- - Enter **crm** as your subdomain name
- - Enter **public_html/crm/public** as your sub domain Document Root
- - Save it and access **http://crm.your-domain.com/installer** 
 
 Installation
 """"""""""""""
@@ -192,3 +200,4 @@ Troubleshooting
 - To resolve ``file_put_contents(...): failed to open stream: Permission denied`` run ``chmod -R 777 storage`` then ``chmod -R 755 storage``
 - Running ``composer install --no-dev`` and ``composer dump-autoload`` can sometimes help with composer problems.
 - Composer install error: ``Fatal error: Allowed memory size of...`` Try the following: ``php -d memory_limit=-1 /usr/local/bin/composer install --no-dev``
+- If you are installing on PHP 7.3 and encounter an error ``preg_match_all(): JIT compilation failed: no more memory`` you will need to modify your php.ini file and enter **pcre.jit=0** to fix the issue.
