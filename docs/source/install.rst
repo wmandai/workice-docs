@@ -67,9 +67,9 @@ The steps below shows how you can install workice to be accessible via a sub dom
 
 Shared hosting with cpanel (ROOT FOLDER)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-
 .. TIP:: Use this method only if you want to install Workice on your main domain e.g yourdomain.com
 
+The steps below shows how you can install workice to be accessible via main domain e.g **https://yourdomain.com**
  - Upload the files to your server in the same location where public_html or www folder is located.
  - Do not upload it inside the public_html or www folder
  - Now move the **public** folder alone to **public_html or www** folder.
