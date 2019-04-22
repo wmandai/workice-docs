@@ -41,20 +41,6 @@ You’ll need to create a new database along with a user to access it. Most host
 
 - You will need to enter this credentials in the steps below.
 
-File Permissions
-""""""""""""""""""
-The webserver should be able to write to this directories **storage**, **public** and **bootstrap/cache**.
-Here is a sample of how you can set the permissions in ubuntu server.
-
-.. code-block:: shell
-
-   sudo chown -R ubuntu:www-data /path/to/workice
-   cd /path/to/workice
-   sudo find -type f -exec chmod 664 {} \;
-   sudo find -type d -exec chmod 775 {} \;
-   sudo chgrp -R www-data bootstrap/cache storage
-   sudo chmod -R ug+rwx bootstrap/cache storage
-
 There are 2 steps to install Workice CRM
  - Using the built in web installer
  - Artisan install method (Requires terminal)
@@ -69,13 +55,13 @@ Shared hosting with cpanel (Sub Domain)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 .. TIP:: Use this method only if you want to install Workice on a sub domain e.g crm.yourdomain.com
 
-The steps below shows how you can install workice to be accessible via a sub domain e.g **https://crm.your domain.com**
+The steps below shows how you can install workice to be accessible via a sub domain e.g **https://crm.yourdomain.com**
 
  - Create a folder inside **public_html or www** e.g **workice** and upload your downloaded files into the folder (Make sure it includes hidden files e.g .env)
  - Go to sub domains on your cpanel dashboard and create a sub domain
- - Enter **crm** as your subdomain name e.g crm.yourdomain.com
- - Enter **public_html/workice/public** as your sub domain Document Root
- - Save it and access **http://crm.your-domain.com/installer** 
+ - Enter your preferred sub domain e.g crm.yourdomain.com
+ - Enter **/path/to/workice/public** as your sub domain Document Root
+ - Save it and access **http://crm.yourdomain.com/installer** 
  
  .. ATTENTION:: The url **/installer** does not point to a folder so do not attempt to create a folder named installer
 
@@ -87,9 +73,9 @@ Shared hosting with cpanel (ROOT FOLDER)
  - Upload the files to your server in the same location where public_html or www folder is located.
  - Do not upload it inside the public_html or www folder
  - Now move the **public** folder alone to **public_html or www** folder.
- - You can now access the web installer by visiting http://your-domain.com/installer
- 
-
+ - You can now access the web installer by visiting http://yourdomain.com/installer
+   
+If you encounter an issue displaying images refer to troubleshooting tips below.
 
 Installation
 """"""""""""""
@@ -102,14 +88,28 @@ Click **Next** if everything is alright if an extension is missing please contac
 The next step checks **directory permissions**. The folders listed should be writable please do NOT set your permissions to **777**.
 The next step requires database and account information.
 
-- Enter your application name and application URL (e.g https://crm.your-domain.com)
+File Permissions
+""""""""""""""""""
+The webserver should be able to write to this directories **storage**, **public** and **bootstrap/cache**.
+Here is a sample of how you can set the permissions in ubuntu server.
+
+.. code-block:: shell
+
+   sudo chown -R ubuntu:www-data /path/to/workice
+   cd /path/to/workice
+   sudo find -type f -exec chmod 664 {} \;
+   sudo find -type d -exec chmod 775 {} \;
+   sudo chgrp -R www-data bootstrap/cache storage
+   sudo chmod -R ug+rwx bootstrap/cache storage
+
+- Enter your application name and application URL (e.g https://crm.yourdomain.com)
 - Enter your database access information that you used when creating database.
 - Enter your admin account information. (This is the admin account you are going to login with)
 - Click on install and Workice will perform the migrations and seeding.
 - If everything went well, you should get a success screen. Click on **Exit** and login using admin account you created above.
   
 
-.. ATTENTION:: You will need to setup email sending inorder to verify admin account. More on that in next article.
+.. ATTENTION:: You will need to setup email sending inorder to verify users accounts. More on that in next article.
 
 
 Artisan Installer
@@ -118,7 +118,7 @@ If you need to install Workice CRM using ``php artisan`` command proceed as foll
  - Open **.env** file and update your database credentials i.e **DB host,DB User etc** (You can change other configurations later).
  - Run command ``php artisan workice:install`` to start the installation.
  - You will be asked to enter admin email and password.
- - After successfull install you can now access your dashboard using http://crm.your-domain.com
+ - After successfull install you can now access your dashboard using http://crm.yourdomain.com
  - Use your admin account to login.
   
 .. NOTE:: Admin account created using ``php artisan workice:install`` command does not require email verification.
@@ -191,7 +191,6 @@ For more information on Supervisor, consult the Supervisor documentation.
 
 
 See the `details here <configure.html>`_ for additional configuration options.
-
 
 Troubleshooting
 ^^^^^^^^^^^^^^^^^
