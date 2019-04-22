@@ -1,6 +1,12 @@
 Changelogs
 ==========
 
+Version 2.0.3
+"""""""""""""""
+ - Added artisan commands execution
+ - Fixed ticket assignment error
+ - Fixed deleting user observer
+
 Version 2.0.2
 """""""""""""""
  - Fix importing old data

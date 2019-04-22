@@ -37,5 +37,3 @@ Then give the webserver the rights to read and write to storage and cache.
 ``sudo chmod -R ug+rwx storage bootstrap/cache``  
 
 Credits https://stackoverflow.com/questions/30639174/how-to-set-up-file-permissions-for-laravel-5-and-others
-
-.. TIP:: You can see the detailed `changelogs </changelog.html>`_ for each release.
