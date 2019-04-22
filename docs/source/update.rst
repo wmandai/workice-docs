@@ -22,13 +22,13 @@ Fixing Permissions
 Never set your folder to 777 permission.
 If you give any of your folders 777 permissions, you are allowing any user to read, write and execute any file in that directory. What this means is you have given any user (any hacker or malicious person in the entire world) permission to upload ANY file, virus or any other file, and THEN execute that file.
 
-To fix permissions issue run command ``sudo chown -R my-user:www-data /path/to/your/workice/root/directory``
+To fix permissions issue run command ``sudo chown -R my-user:www-data /path/to/your/workice``
 The first **my-user** is name of the user, and the second **www-data** is the name of the group.
 
 Then give both yourself and the webserver permissions as shown;
 
-``sudo find /path/to/your/workice/root/directory -type f -exec chmod 664 {} \;``
-``sudo find /path/to/your/workice/root/directory -type d -exec chmod 775 {} \;``
+``sudo find /path/to/your/workice -type f -exec chmod 664 {} \;``
+``sudo find /path/to/your/workice -type d -exec chmod 775 {} \;``
 
 Then give the webserver the rights to read and write to storage and cache.
 
