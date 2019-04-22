@@ -218,6 +218,18 @@ Tawk
 ------------
 After you have enabled tawk.to in your .env, copy the **script code** they have given you and paste it in **/resources/views/partial/tawk.blade.php** (Replace the sample code in that file).
 
+Google ReCaptcha
+"""""""""""""""""""
+To enable recaptcha, first get your recaptcha key and secret from `Google <https://www.google.com/recaptcha>`__
+Open **.env** file on the ROOT folder and enter your values as shown.
+
+.. code-block:: shell
+	NOCAPTCHA_SECRET=YOUR-RECAPTCHA-SECRET
+	NOCAPTCHA_SITEKEY=YOUR-RECAPTCHA-SITE-KEY
+
+Go to **Settings** > **System Settings** then enable **Use Recaptcha**.
+
+
 Using a (Reverse) Proxy
 """"""""""""""""""""""""
 
