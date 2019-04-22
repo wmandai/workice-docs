@@ -220,10 +220,11 @@ After you have enabled tawk.to in your .env, copy the **script code** they have 
 
 Google ReCaptcha
 """""""""""""""""""
-To enable recaptcha, first get your recaptcha key and secret from `Google <https://www.google.com/recaptcha>`__
+To enable recaptcha, first get your recaptcha key and secret from `Google <https://www.google.com/recaptcha>`__.
 Open **.env** file on the ROOT folder and enter your values as shown.
 
 .. code-block:: shell
+
 	NOCAPTCHA_SECRET=YOUR-RECAPTCHA-SECRET
 	NOCAPTCHA_SITEKEY=YOUR-RECAPTCHA-SITE-KEY
 
