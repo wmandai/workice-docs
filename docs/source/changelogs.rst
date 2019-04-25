@@ -1,5 +1,17 @@
 Changelogs
 ==========
+Version 2.0.5
+"""""""""""""""
+ - Fixed deleting contact issue
+ - Fixed reset password hashing twice
+ - Fixed PDF not showing image
+
+Version 2.0.4
+"""""""""""""""
+ - Fixed archiving projects when importing from freelancer
+ - Fixed issue in cancelling invoices
+ - Fixed invoicing project issue
+ - Fixed error displaying deals in staff dashboard
 
 Version 2.0.3
 """""""""""""""
