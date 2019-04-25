@@ -57,10 +57,10 @@ Shared hosting with cpanel (Sub Domain)
 
 The steps below shows how you can install workice to be accessible via a sub domain e.g **https://crm.yourdomain.com**
 
- - Create a folder inside **public_html or www** e.g **workice** and upload your downloaded files into the folder (Make sure it includes hidden files e.g .env)
- - Go to sub domains on your cpanel dashboard and create a sub domain
+ - Create a folder inside **public_html or www** e.g **workice** and upload your downloaded files into the folder **/public_html/workice** (Make sure it includes hidden files e.g .env)
+ - Go to **sub domains** on your cpanel dashboard and create a sub domain
  - Enter your preferred sub domain e.g crm.yourdomain.com
- - Enter **/path/to/workice/public** as your sub domain Document Root
+ - Enter **/public_html/workice/public** as your sub domain **Document Root**
  - Save it and access **http://crm.yourdomain.com/installer** 
  
  .. ATTENTION:: The url **/installer** does not point to a folder so do not attempt to create a folder named installer
@@ -70,12 +70,13 @@ Shared hosting with cpanel (ROOT FOLDER)
 .. TIP:: Use this method only if you want to install Workice on your main domain e.g yourdomain.com
 
 The steps below shows how you can install workice to be accessible via main domain e.g **https://yourdomain.com**
- - Upload the files to your server in the same location where public_html or www folder is located.
- - Do not upload it inside the public_html or www folder
+ - Create a folder e.g **workice** in the same location where public_html or www folder is located (NOT INSIDE public_html or www)
+ - Open folder **workice** and upload workice-crm.zip file (downloaded from envato)
+ - Extract the contents of the zip into this folder
  - Now move the **public** folder alone to **public_html or www** folder.
  - Edit file public/index.php
- - Change line ``require __DIR__.'/../bootstrap/autoload.php';`` to ``require __DIR__.'/../workice-folder/bootstrap/autoload.php';``
- - Change line ``$app = require_once __DIR__.'/../bootstrap/app.php';`` to ``$app = require_once __DIR__.'/../workice-folder/bootstrap/app.php';``
+ - Change line ``require __DIR__.'/../bootstrap/autoload.php';`` to ``require __DIR__.'/../workice/bootstrap/autoload.php';``
+ - Change line ``$app = require_once __DIR__.'/../bootstrap/app.php';`` to ``$app = require_once __DIR__.'/../workice/bootstrap/app.php';``
  - You can now access the web installer by visiting http://yourdomain.com/installer
    
 If you encounter an issue displaying images refer to troubleshooting tips below.
@@ -136,7 +137,7 @@ CRON Configuration
 ^^^^^^^^^^^^^^^^^^^^
 Add a CRON job as shown below;
 
-``* * * * * cd /path-to-workice && php artisan schedule:run >> /dev/null 2>&1``
+``* * * * * cd /path/to/workice && php artisan schedule:run >> /dev/null 2>&1``
 
 This Cron will call Workice command scheduler every minute. When the **schedule:run** command is executed, Workice will evaluate your scheduled tasks and runs the tasks that are due.
 
