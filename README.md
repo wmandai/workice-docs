@@ -8,7 +8,7 @@ Workice CRM Software is a web based, easy, powerful yet affordable CRM with sale
 
 ----------
 
-![Workice](https://s3.eu-central-1.amazonaws.com/workice/images/workice-dash.png)
+![Workice](https://dbz0e1mkzg4d4.cloudfront.net/images/preview-large.jpg)
 
 
 
