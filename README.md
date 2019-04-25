@@ -29,7 +29,7 @@ Workice CRM Software is a web based, easy, powerful yet affordable CRM with sale
 For instructions [Read the Documentation](https://docs.workice.com)
 
 ## Invoices Screenshot
-![Workice](https://dbz0e1mkzg4d4.cloudfront.net/images/invoices-list.jpg)
+![Workice](https://dbz0e1mkzg4d4.cloudfront.net/images/invoices-list.png)
 
 ## Integrate with your favourite tools including Zapier
 ![Workice](https://dbz0e1mkzg4d4.cloudfront.net/images/integration-tools.jpg)
