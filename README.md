@@ -4,7 +4,7 @@
 
 Workice CRM Software is a web based, easy, powerful yet affordable CRM with sales and marketing tools, project management, expense tracking, invoicing and estimates tools for small businesses/freelancers.
 
-[Purchase WorkiceCRM](https://workice.com) | [Documentation](https://docs.workice.com) | [Support Desk](https://desk.workice.com)
+[Purchase WorkiceCRM](https://codecanyon.net/item/workice-the-ultimate-freelancer-crm/23698199) | [Documentation](https://docs.workice.com) | [Support Desk](https://desk.workice.com)
 
 ----------
 
