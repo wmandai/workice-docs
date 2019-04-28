@@ -64,10 +64,10 @@ Email Settings
 ---------------
  - ``MAIL_DRIVER`` - Email driver. Default **smtp**
  - ``MAIL_HOST`` - Email host e.g **smtp.mailtrap.io**
- - ``MAIL_PORT`` - Outgoing email port e.g **2525**
+ - ``MAIL_PORT`` - Outgoing email port e.g **2525** or **465**
  - ``MAIL_USERNAME`` - Outgoing email username
  - ``MAIL_PASSWORD`` - Outgoing email password
- - ``MAIL_ENCRYPTION`` - Default null
+ - ``MAIL_ENCRYPTION`` - Default null other options **tls** and **ssl**
 
  - ``MAIL_FROM_ADDRESS`` - The email address that sends emails (Your company address)
  - ``MAIL_FROM_NAME`` - Your company name that appears on emails
