@@ -90,7 +90,10 @@ The first page of the web installer checks if your server meets the requirements
 
 Click **Next** if everything is alright if an extension is missing please contact your hosting provider or install it.
 The next step checks **directory permissions**. The folders listed should be writable please do NOT set your permissions to **777**.
-The next step requires database and account information.
+The next step requires database and account information. 
+Enter the information and complete the installation.
+
+.. ATTENTION:: You will need to setup CRON to run every minute as shown below otherwise invoices/estimates will not be sent or calculated.
 
 File Permissions
 """"""""""""""""""
@@ -113,7 +116,7 @@ Here is a sample of how you can set the permissions in ubuntu server.
 - If everything went well, you should get a success screen. Click on **Exit** and login using admin account you created above.
   
 
-.. ATTENTION:: You will need to setup email sending inorder to verify users accounts. More on that in next article.
+.. ATTENTION:: You will need to setup email inorder to verify users accounts. More on that in next article (Configure)
 
 
 Artisan Installer
@@ -208,3 +211,4 @@ Troubleshooting
 - If you are installing on PHP 7.3 and encounter an error ``preg_match_all(): JIT compilation failed: no more memory`` you will need to modify your php.ini file and enter **pcre.jit=0** to fix the issue.
 - My images are not loading - May be caused by wrong symlink. Edit public/index.php file and write this line at the top of the code after ``<?php`` opening tag ``symlink('../your-crm-folder/storage/app/public', './storage');``
 - My CRONs are not running and i get an error **ErrorException with message 'Invalid argument supplied for foreach()' in /home/project/vendor/symfony/console/Input/ArgvInput.php** to fix this, enter your CRON to run every minute as shown ``php -d register_argc_argv=On /path/to/workice/artisan schedule:run >/dev/null``
+- Not receiving emails and invoices/estimates balances are not shown correctly. You need to setup CRONS as shown above to fix that.
