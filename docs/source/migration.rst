@@ -3,6 +3,8 @@ Migration
 
 .. Note:: Unlike freelancer office, Workice CRM now requires PHP >= 7.1.3 and MySQL.
 
+.. ATTENTION:: Do not replace freelancer office files with Workice files install Workice separately before importing data.
+
 Export data as JSON
 ^^^^^^^^^^^^^^^^^^^^^
 Download the import file from `here <https://dbz0e1mkzg4d4.cloudfront.net/tools/workice-importer.zip>`__
