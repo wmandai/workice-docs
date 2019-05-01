@@ -1,5 +1,14 @@
 Changelogs
 ==========
+Version 2.0.6
+"""""""""""""""
+ - Add button to compute analytics in Reports
+ - Fixed date issue when importing data from old system
+ - Fixed email files not setting correct adapter
+ - Fixed missing translation strings
+ - Added run cron via URL
+ - Fixed show task name for running timer
+
 Version 2.0.5
 """""""""""""""
  - Fixed deleting contact issue
