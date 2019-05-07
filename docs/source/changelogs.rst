@@ -2,6 +2,20 @@ Changelogs
 ==========
 Version 2.0.6
 """""""""""""""
+ - Fixed quick access issue when task/project deleted.
+ - Fixed notification not sent to task creator
+ - Fixed PDF for shared estimates
+ - Fixed PDF download for contracts by client
+ - Added paytm for India
+ - Fixed customer verification
+ - Made activities clickable
+ - Show social logins individually
+ - Fixed send email when ticket status changed
+ - Fixed files without title not downloadable
+ - Transfer notes to deals when lead is converted to deal
+ - Transfer notes to client comments when lead is converted to customer
+Version 2.0.6
+"""""""""""""""
  - Add button to compute analytics in Reports
  - Fixed date issue when importing data from old system
  - Fixed email files not setting correct adapter
