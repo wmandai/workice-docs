@@ -76,7 +76,7 @@ The steps below shows how you can install workice to be accessible via main doma
  - Open folder **workice** and upload workice-crm.zip file (downloaded from envato)
  - Extract the contents of the zip into this folder
  - Now move the **public** folder alone to **public_html or www** folder.
- - Edit file public/index.php
+ - Edit file index.php
  - Change line ``require __DIR__.'/../bootstrap/autoload.php';`` to ``require __DIR__.'/../workice/bootstrap/autoload.php';``
  - Change line ``$app = require_once __DIR__.'/../bootstrap/app.php';`` to ``$app = require_once __DIR__.'/../workice/bootstrap/app.php';``
  - You can now access the web installer by visiting http://yourdomain.com/installer
