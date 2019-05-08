@@ -1,6 +1,6 @@
 Changelogs
 ==========
-Version 2.0.6
+Version 2.0.7
 """""""""""""""
  - Fixed quick access issue when task/project deleted.
  - Fixed notification not sent to task creator
