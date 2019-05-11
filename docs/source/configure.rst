@@ -107,7 +107,13 @@ To handle `Stripe <https://dashboard.stripe.com>`__ webhooks, proceed as follows
 
 By default, Workice CRM will automatically handle cancelling subscriptions that have too many failed charges (as defined by your Stripe settings), customer updates, customer deletions, subscription updates, and credit card changes; 
 
-.. ATTENTION:: Required stripe webhooks customer.subscription.updated,customer.subscription.deleted,customer.updated,customer.source.deleted,customer.deleted
+Required stripe webhooks;
+
+ - customer.subscription.updated
+ - customer.subscription.deleted
+ - customer.updated
+ - customer.source.deleted
+ - customer.deleted
 
 
 Razorpay Configuration
