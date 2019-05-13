@@ -1,7 +1,22 @@
 Changelogs
 ==========
-Version 2.0.7
-"""""""""""""""
+Version 2.0.8 - 13 May 2019
+"""""""""""""""""""""""""""""""
+ - Fixed invoices and estimates public link responsive
+ - Fixed Nexmo SMS
+ - Fixed PDF fonts
+ - Fixed files not showing in user profile
+ - Added search contacts
+ - Fixed adding items conflict in creditnotes
+ - Fixed calendar locale
+ - Fixed time format in client dashboard
+ - Added default company logo if missing
+ - Fixed stage_id required error when importing deals
+ - Fixed lead stage calculations
+ - Fixed invoice auto reminders
+
+Version 2.0.7 - 08 May 2019
+""""""""""""""""""""""""""""""
  - Fixed quick access issue when task/project deleted.
  - Fixed notification not sent to task creator
  - Fixed PDF for shared estimates
@@ -59,7 +74,7 @@ Version 2.0.1
  - Fixed Paypal Live IPN issue
  - Added invoice overpayment alert
 
-Version 2.0.0
-"""""""""""""
+Version 2.0.0 - 01 May 2019
+"""""""""""""""""""""""""""""
 
 - Initial release
