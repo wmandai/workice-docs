@@ -11,6 +11,13 @@ To modify the text translated to the target language, navigate to **Settings** >
  - Click the **Pencil** icon to modify the language file i.e app or activity language files
  - Replace the text displayed on your right side with your language equivalent
  - English version is displayed on the left side.
+   
+Adding Translations
+^^^^^^^^^^^^^^^^^^^^^
+If you want to add translations to Workice create a folder for your language example **ms** then copy all language files from folder /resources/lang/en into your new folder **ms**
+After copying the translation files you can now modify the language lines in Settings > Translations 
+
+Alternatively, you can share your translations `here <https://github.com/wmandai/workice-translations>`__ and we'll be glad to add it to workice.
 
 Backup Translations
 ^^^^^^^^^^^^^^^^^^^^^
