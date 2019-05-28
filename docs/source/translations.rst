@@ -16,7 +16,7 @@ Adding Translations
 ^^^^^^^^^^^^^^^^^^^^^
 If you want to add translations to Workice;
  - Create a folder for your language example ``ms``
- - Copy all language files from folder /resources/lang/en into your new folder **ms**
+ - Copy all language files from folder /resources/lang/en into your new folder ``ms``
  - After copying the translation files you can now modify the language lines in Settings > Translations 
 
 Alternatively, you can share your translations `here <https://github.com/wmandai/workice-translations>`__ and we'll be glad to add it to workice.
