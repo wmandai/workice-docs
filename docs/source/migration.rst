@@ -5,6 +5,8 @@ Migration
 
 .. ATTENTION:: Do not replace freelancer office files with Workice files install Workice separately before importing data.
 
+.. ATTENTION:: Importing data from freelancer office to Workice requires CRON to be already running see the steps on how to setup cron `here <https://discuss.workice.com/d/9-setting-up-cron>`__
+
 Export data as JSON
 ^^^^^^^^^^^^^^^^^^^^^
 Download the import file from `here <https://dbz0e1mkzg4d4.cloudfront.net/tools/workice-importer.zip>`__
