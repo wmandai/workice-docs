@@ -1,5 +1,20 @@
 Changelogs
 ==========
+Version 2.0.9 - 28 May 2019
+"""""""""""""""""""""""""""""""
+ - Added project templates
+ - Added Pagseguro payment for brazil
+ - Added more dashboard stats
+ - Fixed todo list URL
+ - Added web to lead form
+ - Fixed font in PDFs
+ - Added convert deal to project
+ - Added custom item units
+ - Fixed attaching projects to tickets
+ - Added notification to team when task created
+ - Fixed known issues
+
+
 Version 2.0.8 - 13 May 2019
 """""""""""""""""""""""""""""""
  - Fixed invoices and estimates public link responsive
