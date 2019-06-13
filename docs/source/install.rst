@@ -47,6 +47,9 @@ There are 2 steps to install Workice CRM
  - Using the built in web installer
  - Artisan install method (Requires terminal)
    
+.. ATTENTION:: Do not modify config files located in /config folder incase you need to modify configuration paramers do it in .env file (Located in ROOT/Main folder). When you modify /config files your changes may be overwritten during an update.
+
+
 Web Installer
 ^^^^^^^^^^^^^^^
 Download the code from Envato Market Downloads page. 
@@ -121,8 +124,8 @@ Here is a sample of how you can set the permissions in ubuntu server.
 .. ATTENTION:: You will need to setup email inorder to verify users accounts. More on that in next article (Configure)
 
 
-Artisan Installer
-^^^^^^^^^^^^^^^^^^^^
+Installing through SSH (Artisan command)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you need to install Workice CRM using ``php artisan`` command proceed as follows;
  - Open **.env** file and update your database credentials i.e **DB host,DB User etc** (You can change other configurations later).
  - Run command ``php artisan workice:install`` to start the installation.
@@ -146,23 +149,15 @@ Add a CRON job as shown below;
 
 This Cron will call Workice command scheduler every minute. When the **schedule:run** command is executed, Workice will evaluate your scheduled tasks and runs the tasks that are due.
 
-Queue Configuration
-^^^^^^^^^^^^^^^^^^^^^^
-Workice CRM relies heavily on ``queue workers``. 
+Queue Configuration (optional)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. NOTE:: For VPS or AWS EC2 users, we recommend installing Supervisord to monitor your processes. Steps on how to install Supervisor on ubuntu are described below
 
-To run queue workers use this command;
+If you need to use supervisord to monitor your queued jobs follow the steps below;
 
-``php artisan queue:work --queue=default,high,normal,low --tries=3``
-
-Queues on Shared Hosting
-""""""""""""""""""""""""""
-To run queues on shared hosting;
- - Open **app/Console/Kernel.php** and uncomment the line ``$schedule->command('queue:work --workicedaemon --queue=default,high,normal,low --tries=3')....``
- - Now setup your CRON ``* * * * * php /path/to/workice/artisan schedule:run >/dev/null``
- - We have modified the queue command to only run jobs and exit to avoid server memory issues.
-
+- Open **app/Console/Kernel.php** and comment the line ``$schedule->command('queue:work --workicedaemon --queue=default,high,normal,low --tries=3')....``
+- Now install/start supervisor as described below;
 
 Installing Supervisor
 """""""""""""""""""""""
