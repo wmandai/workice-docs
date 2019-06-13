@@ -140,6 +140,7 @@ Email Configuration
 
  - Workice CRM supports SMTP, Mailgun, Postmark, SparkPost, Amazon SES, and sendmail.
  - If you have no idea how to configure email sending, read on the next guide **Configuration**.
+ - For more information check https://discuss.workice.com/
 
 CRON Configuration
 ^^^^^^^^^^^^^^^^^^^^
@@ -148,6 +149,8 @@ Add a CRON job as shown below;
 ``* * * * * cd /path/to/workice && php artisan schedule:run >> /dev/null 2>&1``
 
 This Cron will call Workice command scheduler every minute. When the **schedule:run** command is executed, Workice will evaluate your scheduled tasks and runs the tasks that are due.
+
+More information available here https://discuss.workice.com
 
 Queue Configuration (optional)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
