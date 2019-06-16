@@ -13,7 +13,7 @@ Version 2.1.0 - 15 June 2019
  - Send notifications via WhatsApp
  - Changed datatables to POST from GET
  - Added option to increase number of digits for invoices
- - Fixed known bugs
+ - Fixed known issues
 
 Version 2.0.9 - 28 May 2019
 """""""""""""""""""""""""""""""
