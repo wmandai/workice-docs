@@ -1,5 +1,20 @@
 Changelogs
 ==========
+Version 2.1.0 - 15 June 2019
+"""""""""""""""""""""""""""""""
+ - Added WhatsApp integration via ApiWha
+ - Added WhatsApp Opt-In
+ - Added unlimited recurring option (without end dates)
+ - Fixed next recurring dates for recurring invoices,expenses and tasks
+ - Fixed Onesignal issue
+ - Added support and lead custom email senders
+ - Added option to set default application locale
+ - Added project feedback report
+ - Send notifications via WhatsApp
+ - Changed datatables to POST from GET
+ - Added option to increase number of digits for invoices
+ - Fixed known bugs
+
 Version 2.0.9 - 28 May 2019
 """""""""""""""""""""""""""""""
  - Added project templates
