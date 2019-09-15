@@ -3,6 +3,11 @@ Migration
 
 .. Note:: Unlike freelancer office, Workice CRM now requires PHP >= 7.1.3 and MySQL.
 
+To purchase Workice with a discounted price for Users with Freelancer Office License, visit https://desk.workice.com and register. After Registration, login and click **Buy Workice**.
+You can download the new Workice CRM source code from your support page (Profile > Downloads) section and proceed with Installation.
+
+.. ATTENTION:: The discounted price is only available when paying via PayPal. We strongly recommend buyers to thoroughly check the item description, comments and demo (https://app.workice.com) to see if it works for your situation. If you have a pre-sale question please ask before purchase we will only offer refund incase we can’t fix the issue.
+
 .. ATTENTION:: Do not replace freelancer office files with Workice files install Workice separately before importing data.
 
 .. ATTENTION:: Importing data from freelancer office to Workice requires CRON to be already running see the steps on how to setup cron `here <https://discuss.workice.com/d/9-setting-up-cron>`__
