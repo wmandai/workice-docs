@@ -3,9 +3,9 @@ Install
 
 Thanks for purchasing `Workice CRM <https://workice.com>`__.
 
-.. NOTE:: Workice CRM is build with `Laravel Framework <https://laravel.com>`__
+.. NOTE:: Workice CRM is build with `Laravel 6 Framework <https://laravel.com>`__
 
-.. Note:: The applications requires PHP >= 7.1.3 and MySQL.
+.. Note:: Workice requires PHP >= 7.2 and MySQL.
 
 .. ATTENTION:: You can check your server requirements by downloading `this file <https://dbz0e1mkzg4d4.cloudfront.net/tools/requirements.zip>`__ extract it and upload to your server and access it via a URL i.e http://yourdomain.com/requirements.php (Delete after use).
 
@@ -91,7 +91,7 @@ Installation
 Once you can access the site the initial setup screen will enable you to configure the database and email settings as well as create the initial admin user.
 The first page of the web installer checks if your server meets the requirements for Workice to run.
 
-.. ATTENTION:: Workice requires PHP 7.1.3+
+.. ATTENTION:: Workice requires PHP 7.2+
 
 Click **Next** if everything is alright if an extension is missing please contact your hosting provider or install it.
 The next step checks **directory permissions**. The folders listed should be writable please do NOT set your permissions to **777**.

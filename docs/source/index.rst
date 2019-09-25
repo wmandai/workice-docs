@@ -34,7 +34,7 @@ To purchase Workice CRM `Click Here <https://workice.com>`__
    introduction
    deals
    leads
-   accounts
+   clients
    invoices
    payments
    creditnotes

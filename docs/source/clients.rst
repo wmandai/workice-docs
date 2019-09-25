@@ -1,19 +1,19 @@
-Accounts
+Clients
 =========
 .. meta::
    :description: Stay organized by keeping your clients, projects, hourly rates and deals in one place.
    :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
-Your clients are the core of your freelance business. Accounts/Clients in `WorkiceCRM <https://workice.com/>`_ will typically hold all information specific to a company that your organisation will have a relationship with. In real world terms an Account may be a business entity that is a qualified Sales Prospect, Customer, Supplier or Re-seller and can be used to track all interactions that take place between these entities and your organisation. The relationship between the account and contact records is one-to-many, such that there can be many contacts associated with a single account.
+Your clients are the core of your freelance business. Clients in `WorkiceCRM <https://workice.com/>`_ will typically hold all information specific to a company that your organisation will have a relationship with. In real world terms an Account may be a business entity that is a qualified Sales Prospect, Customer, Supplier or Re-seller and can be used to track all interactions that take place between these entities and your organisation. The relationship between the account and contact records is one-to-many, such that there can be many contacts associated with a single account.
 
 Contacts
 """"""""
-In Workice, a Contact is an individual who is typically associated with an Account (organisation) or Opportunity (qualified prospect). For example if Apple is the Account, then John Smith, Sales Manager of Apple is the Contact. This module holds all information relating to these individuals and also provides a vantage point for any history relating to a Contact record, for example if they sent you an Email.
+In Workice, a Contact is an individual who is typically associated with a client (organisation) or Opportunity (qualified prospect). For example if Apple is the Client, then John Smith, Sales Manager of Apple is the Contact. This module holds all information relating to these individuals and also provides a vantage point for any history relating to a Contact record, for example if they sent you an Email.
 
-List Accounts
+List Clients
 """"""""""""""
 
-The Accounts page is a list page that presents a summary of all your clients in a user-friendly table. Think of Accounts page as the "central station" of your client activity. Most of your day-to-day invoicing actions can be taken from the various links and buttons that appear on the Accounts page. And you can use the Accounts page as your starting point to explore more in-depth client information, view client projects, view client estimates, and more. Now, we’ll take a closer look at the setup of the Clients page, and the range of actions available to you on the Accounts page.
+The Clients page is a list page that presents a summary of all your clients in a user-friendly table. Think of Accounts page as the "central station" of your client activity. Most of your day-to-day invoicing actions can be taken from the various links and buttons that appear on the Clients page. And you can use the Accounts page as your starting point to explore more in-depth client information, view client projects, view client estimates, and more. Now, we’ll take a closer look at the setup of the Clients page, and the range of actions available to you on the Accounts page.
 
 To view your client list page, go to the main sidebar and click the Accounts tab.
 
@@ -28,25 +28,25 @@ The Clients page presents a list summary of all your current clients in a table 
 - **Balance:** The client’s payment balance
 - **Expenses:** The client’s unbilled expenses
 
-Create Account
+Create Client
 """"""""""""""
 
 So, you’ve taken on a new client? Congratulations!
 
 Your Clients list is at the heart of your invoicing activity, so it's really important to maintain current information on all your clients. When you start working with a new client, the first thing you’ll need to do is to add the new client by entering their contact information and business details.
 
-When creating and saving a new client to your Accounts list, make sure to have the relevant, up-to-date information at hand. You are only required to enter the information one time. WorkiceCRM automatically tracks all invoicing,projects,estimates and payment activity for each client.
+When creating and saving a new client to your Client list, make sure to have the relevant, up-to-date information at hand. You are only required to enter the information one time. WorkiceCRM automatically tracks all invoicing,projects,estimates and payment activity for each client.
 
 
-**Account Creation**
+**Client Creation**
 
-To create accounts individually.
+To create clients individually.
 
-| In the Accounts module, click (Create button) to add a new account.
-| In the Create Account page, enter the account details.
+| In the Clients module, click (Create button) to add a new account.
+| In the Create Client page, enter the account details.
 | Click Save
 
-.. TIP:: The Create Account page is divided into four sections. Enter the information in the relevant fields.
+.. TIP:: The Create Client page is divided into four sections. Enter the information in the relevant fields.
 
 .. Note: You don’t have to complete every field. Enter the information that is important or necessary for your needs.
 
@@ -58,7 +58,7 @@ Let’s take a closer look at each section:
 - **Web**: Enter your client social media or website data.
 - **Custom Fields**: If there are any custom fields for clients, it will be displayed here.
 
-Account Overview Page
+Client Overview Page
 """""""""""""""""""""
 
 Once you have created an account, you can view the details of the account in the record's details page. The details page of an account presents information related to the account - for example, contacts, projects, invoices, deals, payments, expenses, subscriptions and so on - in a single location.

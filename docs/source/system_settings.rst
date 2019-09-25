@@ -23,6 +23,9 @@ You can modify the settings below;
  - **Allowed files**: Comma separated list of allowed files e.g png,pdf,docx etc
  - **Privacy Policy URL**: A link to your privacy policy
  - **Slack webhook URL**: Your company slack webhook url to receive notifications
+ - **Wablas Token**: API Key obtained from Wablas
+ - **WhatsApp Number**: Default WhatsApp number
+ - **WhatsApp Subscribe Text**: Text that users need to send to your whatsapp to subscribe. Default is SUB
  - **Open Exchange API Key**: If left blank, the system will use our rates server to fetch currency rates.
  - **Google Calendar API Key**: Your `Google Calendar <https://console.developers.google.com/>`__ API Key
  - **Google Calendar ID**: Your Google Calendar ID. It will look something like “abcd1234@group.calendar.google.com”.
@@ -43,4 +46,4 @@ Other Options
  - **Stop timer logout**: When this option is enabled, running timers will be stopped when you logout.
  - **Contract to Project**: Automatically convert a contract into a project once it's signed
  - **Update Notifications**: Receive update notifications
- - **Demo Mode**: Turn application into demo mode useful for those who purchased extended license and want to show a demo.
+ - **WhatsApp Enabled**: Enable/Disable WhatsApp integration.

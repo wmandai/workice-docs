@@ -1,5 +1,20 @@
 Changelogs
 ==========
+Version 2.1.2 - 25 September 2019
+"""""""""""""""""""""""""""""""
+ - Added Aircall integration (sync)
+ - Upgraded to Laravel 6 LTS
+ - Added html editor for texts (Summernote)
+ - Added Project Custom Fields
+ - Added SMS integration (Inbound/Outbound - Twilio)
+ - Added Bulk SMS to leads
+ - Updated Stripe Subscriptions (SCA Rules)
+ - Added option to manually very user accounts
+ - Changed WhatsApp driver to Wablas
+ - Added Github Issues integrations with Project Issues
+ - Added Contract Templates
+ - Fixed known issues
+
 Version 2.1.0 - 15 June 2019
 """""""""""""""""""""""""""""""
  - Added WhatsApp integration via ApiWha

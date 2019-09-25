@@ -4,13 +4,20 @@ Contracts
    :description: Built into a smart work flow that includes e-signatures for your e-contracts.
    :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
-One of the ways of building a relationship between a freelance developer and a client is to offer econtracts built into your web interface. Econtracts is a movement towards a faster and more seamless contract process and experience.
+One of the ways of building a relationship between a freelance developer and a client is to offer e-contracts built into your web interface. e-contracts is a movement towards a faster and more seamless contract process and experience.
 
  - The default contract clauses included in `Workice <https://workice.com>`__ was written by `AND.CO <https://www.and.co/the-freelance-contract>`__ and is vetted by the Freelancers Union and automatically complies with the Freelance Isn’t Free Act.
  - You and your clients can sign contracts online.
  - Get alerts when the contract is viewed or signed.
 
- .. TIP:: To modify contract clauses, go to **Settings** -> **General Settings** and click on **Clauses** button at the top bar section of the settings page.
+Create Contract Template
+"""""""""""""""""""""""""""
+Start by creating a contract template, Go to **Contracts** and click on **Templates** button.
+ - Enter the name of the contract template e.g Web Design Contract
+ - Enter the contract clauses (check sample contract included on installation)
+ - A list of available tags is shown below the Contract Message textarea. Those tags will be replaced with their values example {EXPIRY_DATE} will be replaced with the date when the contract expires.
+ - After creating a contract template, you can select the Contract Template when creating a contract as shown in the steps below;
+
 
 Create Contract
 """"""""""""""""
@@ -20,6 +27,7 @@ You will be redirected to contract creation form where you can enter contract in
 
 - **Contract Title**: - The Contract Title
 - **Client**: - Client associated with the contract
+- **Contract Template**: - The contract template to be used e.g Web Design
 - **Start Date**: - Contract start date
 - **End Date**: - Contract end date
 - **Fixed Rate**: - Select **Yes** to set a fixed rate for the contract
