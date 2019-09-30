@@ -32,7 +32,7 @@ Import to Workice
 
 .. Note:: Workice will send an email to you when import data has been completed successfully
 
-If your data does not show correctly after importing, run the command below;
+If your data does not show correctly after importing, run the command below or click on the command button in **Settings > Info > Commands button > app:balances** button;
 
 .. code-block:: shell
 
