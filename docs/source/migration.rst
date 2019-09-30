@@ -1,7 +1,7 @@
 Migration
 ==============
 
-.. Note:: Unlike freelancer office, Workice CRM now requires PHP >= 7.1.3 and MySQL.
+.. Note:: Unlike freelancer office, Workice CRM now requires PHP >= 7.2 and MySQL.
 
 To purchase Workice with a discounted price for Users with Freelancer Office License, visit https://desk.workice.com and register. After Registration, login and click **Buy Workice**.
 You can download the new Workice CRM source code from your support page https://desk.workice.com (Profile > Downloads) section and proceed with Installation.
