@@ -28,6 +28,8 @@ Any feature you need to see on Workice? `request it here <https://desk.workice.c
 
 Create Database
 ^^^^^^^^^^^^^^^^^
+.. ATTENTION:: Do not use a password that contains a #(Hash) character (It will be treated as a comment)
+
 You’ll need to create a new database along with a user to access it. Most hosting companies provide an interface to handle this or you can run the SQL statements below.
 
  - Give your database a name e.g **workicecrm**
@@ -207,6 +209,7 @@ Troubleshooting
 - I cannot see a folder named **installer** - The url /installer is a laravel route and not a folder. You will be redirected to /installer if the application detects that the app needs to be installed.
 - To resolve ``file_put_contents(...): failed to open stream: Permission denied`` run ``chmod -R 777 storage`` then ``chmod -R 755 storage``
 - Running ``composer install --no-dev`` and ``composer dump-autoload`` can sometimes help with composer problems.
+- Getting error message "Database connection/migration failed" all database credentials are correct. Check that your database user has enough privileges to perform database actions, workice database should be empty or your password contains a #(Hash).
 - Composer install error: ``Fatal error: Allowed memory size of...`` Try the following: ``php -d memory_limit=-1 /usr/local/bin/composer install --no-dev``
 - If you are installing on PHP 7.3 and encounter an error ``preg_match_all(): JIT compilation failed: no more memory`` you will need to modify your php.ini file and enter **pcre.jit=0** to fix the issue.
 - My images are not loading - May be caused by wrong symlink. Edit public/index.php file and write this line at the top of the code after ``<?php`` opening tag ``symlink('../your-crm-folder/storage/app/public', './storage');``
