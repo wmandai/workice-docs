@@ -1,5 +1,25 @@
 Changelogs
 ==========
+Version 2.1.5 - 15 December 2019
+"""""""""""""""""""""""""""""""
+ - Added staff timecards
+ - Added gocardless direct debit
+ - Added Invoicr PDF engine
+ - Upload WYSIWYG images to folder instead of base64 encode to database
+ - Fixed copying project issue
+ - Fixed Project Template not copying milestones,tasks etc
+ - Added option to disable discount and tax columns on estimates/invoices
+ - Fixed bulk invoice payments
+ - Fixed tasks today count on top header
+ - Fixed importing csv
+ - Fixed issue with saving todo
+ - Show error when invoice overpaid
+ - Create tickets for only registered users
+ - Fixed language, permission and translations 404 error
+ - Added correct cron path on Settings > System Info page
+ - Added invoice recurring biennially
+ - Fixed invoice double taxation
+
 Version 2.1.2 - 25 September 2019
 """""""""""""""""""""""""""""""
  - Added Aircall integration (sync)
