@@ -1,5 +1,35 @@
 Changelogs
 ==========
+Version 3.0.0 - 25 November 2020
+"""""""""""""""""""""""""""""""
+- Fixed mark invoice as paid date issue.
+- Updated to Laravel 8
+- Added Square Payment Gateway
+- Added tax per item and tax types to invoices.
+- Fixed issue with uploading files
+- Added option for compound and simple taxes
+- Modified Gantt to include Milestones
+- Fixed downloading files permissions
+- Added laravel livewire and tailwindcss
+- Added custom company address formatting in settings
+- Added shipping and billing addresses to invoices, estimates and creditnotes
+- Added easymde markdown editor with autosave
+- Added discounts per item
+- Added Gocardless direct mandates
+- Upgraded 2checkout payment
+- Added contract signature pad
+- Added AWS Pinpoint SMS
+- Added Shoutout SMS
+- Added Telegram notifications
+- Added Messagebird SMS
+- Search field on top nav now searches for everything not only tags
+- Added logged in devices in user profile
+- Fixed deal and lead stages calculations
+- Added option to make knowledgebase public
+- Added option to display Bank account on Invoices when enabled
+- Task progress percentage calculated using task checklist
+- Fixed many known bugs
+
 Version 2.1.5 - 15 December 2019
 """""""""""""""""""""""""""""""
  - Added staff timecards
