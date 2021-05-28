@@ -1,5 +1,20 @@
 Changelogs
 ==========
+Version 3.0.8 - 28 May 2021
+"""""""""""""""""""""""""""""""
+- Fixed issue with creating deals
+
+Version 3.0.7 - 25 May 2021
+"""""""""""""""""""""""""""""""
+- Fixed issue with viewing deals
+- Fixed issue in calculating taxes
+- Upgraded Laravel Version
+- Added 3 decimals support for taxes
+- Fixed showing hidden expenses to client
+- Updated css/js assets
+- Fixed issue with adding/updating item templates
+- Added mailgun endpoint to .env
+
 Version 3.0.0 - 25 November 2020
 """""""""""""""""""""""""""""""
 - Fixed mark invoice as paid date issue.
